@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义搜索</title>
+    <script>
+        function myck(type) {
+            document.getElementById("ifr").setAttribute("src",type);
+        }
+    </script>
+</head>
+
+<body>
+<div>
+    <input type="button" value="百度" onclick=myck("https://www.baidu.com/")>
+    <input type="button" value="搜狗" onclick=myck("https://www.sogou.com/")>
+    <input type="button" value="360" onclick=myck("https://hao.360.com/")>
+</div>
+    <iframe id="ifr" style="width: 100%; height: 1000px;" src="https://www.baidu.com/"></iframe>
+</body>
+</html>

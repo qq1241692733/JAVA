@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>登录页面</title>
+  //  <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+        function myck(type) {
+            var inputUsername = document.getElementById("username");
+            var inputPwd = document.getElementById("pwd");
+            if(type==1){
+                // 提交操作，非空效验
+                if(inputUsername.value==""){
+                    // 终止执行
+                    alert("请先输入用户名！");
+                    return false;
+                }
+                if(inputPwd.value==""){
+                    alert("请先输入密码");
+                    return  false;
+                }
+                alert("恭喜：操作成功");
+            }else if(type==2){
+                // 清空操作
+                if(confirm("是否确认清空")){
+                    // 清空数据
+                    inputUsername.value = "";
+                    inputPwd.value = "";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div style = "text-align: center">
+    <h1>登录</h1>
+    <div id="div1" style="margin-left: -30px;">
+        &nbsp;&nbsp;用户名：<input id="username" name="uname" type="text"><p></p>
+        &nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;码：
+        <input id="pwd" name="password" type="password">
+    </div>
+    <div>
+        <p></p>
+        <input id="input_sub" name="input_sub" type="button" value=" 提 交 " onclick="myck(1)">
+        <input  type="button" value=" 清 空 " onclick="myck(2)">
+    </div>
+</div>
+</body>
+</html>
