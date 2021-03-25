@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-1.9.1.min.js">
+        var num1input = jQuery("#num1");
+        var num2input = jQuery("#num2");
+        var resultDivinput = jQuery("#resultDiv");
+        function myck(type) {
+            var total = 0;
+            if (type == 1) {
+                if (num1input.val() == "") {
+                    alert("请输入数字1");
+                    num1input.focus();    //光标从置
+                }
+                if (num2input.val() == "") {
+                    alert("请输入数字2");
+                    num1input.focus();    //光标从置
+                }
+                total = parseInt(num2input.val()) + parseInt(num1input.val());
+            }
+            if (type == 2) {
+                if (num1input.val() == "") {
+                    alert("请输入数字1");
+                    num1input.focus();    //光标从置
+                }
+                if (num2input.val() == "") {
+                    alert("请输入数字2");
+                    num1input.focus();    //光标从置
+                }
+                total = parseInt(num2input.val()) + parseInt(num1input.val());
+            }
+            if (type == 3) {
+                if (num1input.val() == "") {
+                    alert("请输入数字1");
+                    num1input.focus();    //光标从置
+                }
+                if (num2input.val() == "") {
+                    alert("请输入数字2");
+                    num1input.focus();    //光标从置
+                }
+                total = parseInt(num2input.val()) + parseInt(num1input.val());
+            }
+            if (type == 4) {
+                num1input = "";
+                num2input = "";
+                resultDivinput.html("");
+                return false;
+            }
+            resultDivinput.html("结果为:")
+
+        }
+
+    </script>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+</head>
+<body>
+    <div style="text-align: center">
+        <h1>计算器</h1>
+        数字1:<input id="num1" name="num1name" type="number"><p></p>
+        数字2:<input id="num2" name="num2name" type="number"><p></p>
+        <input type="button" value="相加" onclick="myck(1)">
+        <input type="button" value="相减" onclick="myck(2)">
+        <input type="button" value="相乘" onclick="myck(3)">
+        <input type="button" value="清空" onclick="myck(4)">
+    </div>
+
+    <div id="resultDiv"></div>
+
+</body>
+</html>
