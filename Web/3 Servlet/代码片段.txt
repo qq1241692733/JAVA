@@ -29,16 +29,17 @@ Servlet
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1"
          metadata-complete="true">
-<!-- 用来注册Servlet接口实现类-->
-    <servlet>
-        <servlet-name>hello</servlet-name>
-        <servlet-class>HelloServlet</servlet-class>
-    </servlet>
 
-<!-- 用来注册Servlet的接口-->
-    <servlet-mapping>
-        <servlet-name>hello</servlet-name>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
+  <!-- 用来注册servlet接口实现类 -->HelloServlet
+  <servlet>
+    <servlet-name>hello</servlet-name>
+    <servlet-class>HelloServlet</servlet-class>
+  </servlet>
+
+  <!-- 用来注册servlet -->
+  <servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
 
 </web-app>

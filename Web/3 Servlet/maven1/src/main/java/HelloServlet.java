@@ -12,5 +12,7 @@ public class HelloServlet extends HttpServlet {
         // 1.获得写入流
         PrintWriter writer = resp.getWriter();
         writer.println("<h1 style='color:red'>Hello,Servlet~</h1>");
+        writer.println("name= <input type = 'text'");
+        writer.println("<input type='submit' value ='提交'><br>");
     }
 }
