@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f129816b-c611-4b81-aa59-45955199941e" name="Default Changelist" comment="" />
+    <list default="true" id="f129816b-c611-4b81-aa59-45955199941e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../3 Servlet/maven2/src/main/java/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1.1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1.1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1.1/target/maven1.1.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1.1/target/maven1.1.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1.1/target/maven1.1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1.1/target/maven1.1/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/src/main/java/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/src/main/java/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/target/classes/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/target/classes/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1/WEB-INF/classes/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1/WEB-INF/classes/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3 Servlet/代码片段.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/代码片段.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +37,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,10 +55,22 @@
       <option name="presentableId" value="Default" />
       <updated>1616498052546</updated>
       <workItem from="1616498053999" duration="360000" />
+      <workItem from="1617113149688" duration="1303000" />
+      <workItem from="1617173473815" duration="1093000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="53" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617175572536">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="53" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1676.943@0.0.1676.943" timestamp="1617175572536" />
+    <state x="149" y="23" key="new project wizard" timestamp="1617175440208">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="149" y="23" key="new project wizard/0.0.1676.943@0.0.1676.943" timestamp="1617175440208" />
   </component>
 </project>

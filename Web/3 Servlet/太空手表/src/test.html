@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css.css">
+    <script type="text/javascript" src="js/js.js"></script>
+    <title>太空人表盘</title>
+</head>
+<body>
+<div class="box">
+    <div class="topleft">
+        <img src="./image/1.png" alt="">
+        <span>80%</span>
+    </div>
+    <div class="topright">
+        <div class="topright_t">
+            <div class="title">空气优质</div>
+            <img src="./image/2.png" alt="" class="img">
+            <div class="up">
+                <div>
+                    <div>晴天</div>
+                    <div style="margin-top:10px;">25°C</div>
+                </div>
+                <div style="margin-left: 40px;" id="kongqi">
+                    <div><span> 26°</span><img src="./image/3.png" alt="" style="margin-top:10px;"></div>
+                    <div><span> 26°</span><img src="./image/3.png" alt="" style="transform:rotate(-60deg);"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="size">
+        <span id="timeh" style=" font-family: MyFont;">15</span>
+        <span class="time" style=" font-family: MyFont;">:</span>
+        <span id="timem" style=" font-family: MyFont;">39</span>
+        <span style="font-size: 60px;margin-left: 5px; font-family: MyFont;" id="times">00</span>
+    </div>
+    <div class="time_right">
+        <div id="span"> <span>十一</span></div>
+        <div style="margin-top: 15px;text-align: right;"><span id="zhou">周二</span><span style="margin-left: 5px;"
+                                                                                        id="md">00-00</span>
+        </div>
+    </div>
+    <div class="time_left">
+        <div>80-129</div>
+        <div>
+            <img src="./image/4.png" alt=""> <span style="transform: scale(1.5,1);" id="heart">93</span>
+        </div>
+    </div>
+    <div class="imgdata">
+        <img src="./image/6.png" alt="">
+    </div>
+    <div class="imgdata1">
+        <img src="./image/7.gif" alt="">
+    </div>
+    <div class="xie">
+        <img src="./image/5.png" alt="" style="margin-right:10px"><span style="transform: scale(1,0.7);">6723</span>
+    </div>
+    <div class="centent"></div>
+    <div class="butletf">
+        <div class="div1">睡眠</div>
+        <div class="div2"><span>7h</span><span>30m</span></div>
+    </div>
+    <div class="butright">
+        <div class="div3">8.66km</div>
+    </div>
+</div>
+<script>
+    var h = document.getElementById('timeh')
+    var m = document.getElementById('timem')
+    var s = document.getElementById('times')
+    var zhou = document.getElementById('zhou')
+    var md = document.getElementById('md')
+    var span = document.getElementById('span').getElementsByTagName('span')
+    var divs = document.getElementById('kongqi').getElementsByTagName('div')
+    var heart = document.getElementById('heart')
+    var myDate = new Date();
+    // 替换星期
+    var arrt = new Array("零", "一", "二", "三", "四", "五", "六", "七", "八", "九");
+    var arrtssss = new Array("一", "二", "三", "四", "五", "六", "日",);
+    /*获取当前农历*/
+    function showCal() {
+        var D = new Date();
+        var yy = D.getFullYear();
+        var mm = D.getMonth() + 1;
+        var dd = D.getDate();
+        var ww = D.getDay();
+        var ss = parseInt(D.getTime() / 1000);
+        if (yy < 100) yy = "19" + yy;
+        return GetLunarDay(yy, mm, dd);
+    }
+
+    //定义全局变量
+    var CalendarData = new Array(100);
+    var madd = new Array(12);
+    var tgString = "甲乙丙丁戊己庚辛壬癸";
+    var dzString = "子丑寅卯辰巳午未申酉戌亥";
+    var numString = "一二三四五六七八九十";
+    var monString = "正二三四五六七八九十冬腊";
+    var weekString = "日一二三四五六";
+    var sx = "鼠牛虎兔龙蛇马羊猴鸡狗猪";
+    var cYear, cMonth, cDay, TheDate;
+    CalendarData = [0xA4B, 0x5164B, 0x6A5, 0x6D4, 0x415B5, 0x2B6, 0x957, 0x2092F, 0x497, 0x60C96, 0xD4A, 0xEA5, 0x50DA9, 0x5AD, 0x2B6, 0x3126E, 0x92E, 0x7192D, 0xC95, 0xD4A, 0x61B4A, 0xB55, 0x56A, 0x4155B, 0x25D, 0x92D, 0x2192B, 0xA95, 0x71695, 0x6CA, 0xB55, 0x50AB5, 0x4DA, 0xA5B, 0x30A57, 0x52B, 0x8152A, 0xE95, 0x6AA, 0x615AA, 0xAB5, 0x4B6, 0x414AE, 0xA57, 0x526, 0x31D26, 0xD95, 0x70B55, 0x56A, 0x96D, 0x5095D, 0x4AD, 0xA4D, 0x41A4D, 0xD25, 0x81AA5, 0xB54, 0xB6A, 0x612DA, 0x95B, 0x49B, 0x41497, 0xA4B, 0xA164B, 0x6A5, 0x6D4, 0x615B4, 0xAB6, 0x957, 0x5092F, 0x497, 0x64B, 0x30D4A, 0xEA5, 0x80D65, 0x5AC, 0xAB6, 0x5126D, 0x92E, 0xC96, 0x41A95, 0xD4A, 0xDA5, 0x20B55, 0x56A, 0x7155B, 0x25D, 0x92D, 0x5192B, 0xA95, 0xB4A, 0x416AA, 0xAD5, 0x90AB5, 0x4BA, 0xA5B, 0x60A57, 0x52B, 0xA93, 0x40E95];
+    madd[0] = 0;
+    madd[1] = 31;
+    madd[2] = 59;
+    madd[3] = 90;
+    madd[4] = 120;
+    madd[5] = 151;
+    madd[6] = 181;
+    madd[7] = 212;
+    madd[8] = 243;
+    madd[9] = 273;
+    madd[10] = 304;
+    madd[11] = 334;
+
+    function GetBit(m, n) {
+        return (m >> n) & 1;
+    }
+    //农历转换
+    function e2c() {
+        TheDate = (arguments.length !== 3) ? new Date() : new Date(arguments[0], arguments[1], arguments[2]);
+        var total, m, n, k;
+        var isEnd = false;
+        var tmp = TheDate.getYear();
+        if (tmp < 1900) {
+            tmp += 1900;
+        }
+        total = (tmp - 1921) * 365 + Math.floor((tmp - 1921) / 4) + madd[TheDate.getMonth()] + TheDate.getDate() - 38;
+
+        if (TheDate.getYear() % 4 == 0 && TheDate.getMonth() > 1) {
+            total++;
+        }
+        for (m = 0; ; m++) {
+            k = (CalendarData[m] < 0xfff) ? 11 : 12;
+            for (n = k; n >= 0; n--) {
+                if (total <= 29 + GetBit(CalendarData[m], n)) {
+                    isEnd = true; break;
+                }
+                total = total - 29 - GetBit(CalendarData[m], n);
+            }
+            if (isEnd) break;
+        }
+        cYear = 1921 + m;
+        cMonth = k - n + 1;
+        cDay = total;
+        if (k == 12) {
+            if (cMonth === Math.floor(CalendarData[m] / 0x10000) + 1) {
+                cMonth = 1 - cMonth;
+            }
+            if (cMonth > Math.floor(CalendarData[m] / 0x10000) + 1) {
+                cMonth--;
+            }
+        }
+    }
+
+    function GetcDateString() {
+        var tmp = "";
+        /*显示农历年：（ 如：甲午(马)年 ）*/
+        /*tmp+=tgString.charAt((cYear-4)%10);
+        tmp+=dzString.charAt((cYear-4)%12);
+        tmp+="(";
+        tmp+=sx.charAt((cYear-4)%12);
+        tmp+=")年 ";*/
+        if (cMonth < 1) {
+            tmp += "(闰)";
+            tmp += monString.charAt(-cMonth - 1);
+        } else {
+            tmp += monString.charAt(cMonth - 1);
+        }
+        tmp += "月";
+        tmp += (cDay < 11) ? "初" : ((cDay < 20) ? "十" : ((cDay < 30) ? "廿" : "三十"));
+        if (cDay % 10 !== 0 || cDay === 10) {
+            tmp += numString.charAt((cDay - 1) % 10);
+        }
+        return tmp;
+    }
+
+    function GetLunarDay(solarYear, solarMonth, solarDay) {
+        //solarYear = solarYear<1900?(1900+solarYear):solarYear;
+        if (solarYear < 1921 || solarYear > 2021) {
+            return "";
+        } else {
+            solarMonth = (parseInt(solarMonth) > 0) ? (solarMonth - 1) : 11;
+            e2c(solarYear, solarMonth, solarDay);
+            return GetcDateString();
+        }
+    }
+
+    date_format()
+    function date_format() {
+        var myDate = new Date();
+        if (myDate.getHours() < 10) {
+            h.innerHTML = "0" + myDate.getHours()
+        } else {
+            h.innerHTML = myDate.getHours()
+        }
+        if (myDate.getMinutes() < 10) {
+            m.innerHTML = "0" + myDate.getMinutes()
+        } else {
+            m.innerHTML = myDate.getMinutes()
+        }
+        if (myDate.getSeconds() < 10) {
+            s.innerHTML = "0" + myDate.getSeconds();
+        } else {
+            s.innerHTML = myDate.getSeconds();
+        }
+        zhou.innerHTML = "周" + arrtssss[myDate.getDay() - 1];
+        md.innerHTML = (myDate.getMonth() + 1) + "-" + myDate.getDate();
+        span[0].innerHTML = showCal();
+    };
+    setInterval(() => {
+        date_format()
+    }, 300);
+    // 温度变化
+    function date_tow() {
+        console.log(divs[0].getElementsByTagName('span')[0].innerText)
+        divs[0].getElementsByTagName('span')[0].innerHTML = divs[0].getElementsByTagName('span')[0].innerText === '26°' ? '25°' : '26°';
+        divs[1].getElementsByTagName('span')[0].innerHTML = divs[1].getElementsByTagName('span')[0].innerText == '20°' ? '19°' : '20°';
+        heart.innerHTML = heart.innerText == 93 ? '94' : '93'
+    }
+    setInterval(() => {
+        date_tow()
+    }, 3000);
+
+</script>
+</body>
+
+</html>
