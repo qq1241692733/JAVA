@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c254ddbe-8a0e-482b-9b16-94adacf2f978" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mbM1QOT9hvakZMTp0imTaLuA2a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.TestDemo">
+    <configuration name="TestDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <module name="2 第n次 嘿嘿嘿untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List.TestDemo" />
+      <module name="2 第n次 嘿嘿嘿untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.TestDemo (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c254ddbe-8a0e-482b-9b16-94adacf2f978" name="Default Changelist" comment="" />
+      <created>1609757621809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609757621809</updated>
+      <workItem from="1609757623220" duration="64000" />
+      <workItem from="1609758213721" duration="2000" />
+      <workItem from="1609905254927" duration="1138000" />
+      <workItem from="1611381867701" duration="8568000" />
+      <workItem from="1611450469321" duration="23000" />
+      <workItem from="1611557752463" duration="6000" />
+      <workItem from="1611566587745" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="636" y="91" key="#Project_Structure" timestamp="1609757632948">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="636" y="91" key="#Project_Structure/0.0.1676.943@0.0.1676.943" timestamp="1609757632948" />
+    <state x="809" y="287" key="FileChooserDialogImpl" timestamp="1609906883861">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="809" y="287" key="FileChooserDialogImpl/0.0.1676.943@0.0.1676.943" timestamp="1609906883861" />
+    <state width="1050" height="144" key="GridCell.Tab.0.bottom" timestamp="1611388107014">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1050" height="144" key="GridCell.Tab.0.bottom/0.0.1676.943@0.0.1676.943" timestamp="1611388107014" />
+    <state width="1050" height="144" key="GridCell.Tab.0.center" timestamp="1611388107014">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1050" height="144" key="GridCell.Tab.0.center/0.0.1676.943@0.0.1676.943" timestamp="1611388107014" />
+    <state width="1050" height="144" key="GridCell.Tab.0.left" timestamp="1611388107014">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1050" height="144" key="GridCell.Tab.0.left/0.0.1676.943@0.0.1676.943" timestamp="1611388107014" />
+    <state width="1050" height="144" key="GridCell.Tab.0.right" timestamp="1611388107014">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1050" height="144" key="GridCell.Tab.0.right/0.0.1676.943@0.0.1676.943" timestamp="1611388107014" />
+    <state width="1630" height="308" key="GridCell.Tab.1.bottom" timestamp="1611387319586">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1630" height="308" key="GridCell.Tab.1.bottom/0.0.1676.943@0.0.1676.943" timestamp="1611387319586" />
+    <state width="1630" height="308" key="GridCell.Tab.1.center" timestamp="1611387319586">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1630" height="308" key="GridCell.Tab.1.center/0.0.1676.943@0.0.1676.943" timestamp="1611387319586" />
+    <state width="1630" height="308" key="GridCell.Tab.1.left" timestamp="1611387319585">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1630" height="308" key="GridCell.Tab.1.left/0.0.1676.943@0.0.1676.943" timestamp="1611387319585" />
+    <state width="1630" height="308" key="GridCell.Tab.1.right" timestamp="1611387319586">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1630" height="308" key="GridCell.Tab.1.right/0.0.1676.943@0.0.1676.943" timestamp="1611387319586" />
+    <state x="77" y="0" key="new project wizard" timestamp="1609906958523">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="77" y="0" key="new project wizard/0.0.1676.943@0.0.1676.943" timestamp="1609906958523" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="List.Node" fieldName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
