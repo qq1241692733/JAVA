@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f129816b-c611-4b81-aa59-45955199941e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../3 Servlet/maven2/src/main/java/HelloServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1.1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1.1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1.1/target/maven1.1.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1.1/target/maven1.1.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1.1/target/maven1.1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1.1/target/maven1.1/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/src/main/java/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/src/main/java/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/target/classes/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/target/classes/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1/WEB-INF/classes/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1/WEB-INF/classes/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven1/target/maven1/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/maven2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/maven2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 Servlet/代码片段.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../3 Servlet/代码片段.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +43,8 @@
       <workItem from="1616498053999" duration="360000" />
       <workItem from="1617113149688" duration="1303000" />
       <workItem from="1617173473815" duration="1093000" />
+      <workItem from="1617435239056" duration="21000" />
+      <workItem from="1617436044230" duration="498000" />
     </task>
     <servers />
   </component>
