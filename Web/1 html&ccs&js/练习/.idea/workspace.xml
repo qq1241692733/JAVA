@@ -2,6 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f129816b-c611-4b81-aa59-45955199941e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Jquery/.idea/Jquery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3 Servlet/Servlet1/Servlet1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3 Servlet/Servlet2/Servlet2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3 Servlet/ajaxcalc/ajaxcalc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3 Servlet/ajaxcalc/src/main/java/AjaxCalcServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3 Servlet/ajaxcalc/src/main/webapp/calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3 Servlet/太空手表/太空手表.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../myblog/src/main/java/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../myblog/src/main/java/models/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../myblog/src/main/java/services/LoginRegServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../myblog/src/main/java/services/RegServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../myblog/src/main/java/utils/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../myblog/src/main/java/utils/ResultJSONUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../myblog/src/main/webapp/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../myblog/src/main/webapp/reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/1 集合/集合.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/2 List/2 List.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/2 List/练习/练习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/3 栈和队列/练习/练习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/4 二叉树/4 二叉树.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/4 二叉树/练习/练习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/二叉搜索树/练习/练习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/反射/反射.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/哈希/练习/练习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/堆/练习/练习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/堆/练习2/练习2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/对象的比较/练习/练习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/排序/练习/练习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/泛型，内部类/泛型，内部类.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../数据结构/泛型，内部类/练习/练习.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +76,10 @@
       <workItem from="1617173473815" duration="1093000" />
       <workItem from="1617435239056" duration="21000" />
       <workItem from="1617436044230" duration="498000" />
+      <workItem from="1617459759341" duration="803000" />
+      <workItem from="1617501230259" duration="772000" />
+      <workItem from="1617502518587" duration="642000" />
+      <workItem from="1617504363261" duration="1121000" />
     </task>
     <servers />
   </component>
@@ -56,9 +91,13 @@
       <screen x="0" y="0" width="1676" height="943" />
     </state>
     <state x="53" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1676.943@0.0.1676.943" timestamp="1617175572536" />
-    <state x="149" y="23" key="new project wizard" timestamp="1617175440208">
+    <state x="538" y="117" key="FileChooserDialogImpl" timestamp="1617503896423">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
-    <state x="149" y="23" key="new project wizard/0.0.1676.943@0.0.1676.943" timestamp="1617175440208" />
+    <state x="538" y="117" key="FileChooserDialogImpl/0.0.1676.943@0.0.1676.943" timestamp="1617503896423" />
+    <state x="338" y="20" key="new project wizard" timestamp="1617503900338">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="338" y="20" key="new project wizard/0.0.1676.943@0.0.1676.943" timestamp="1617503900338" />
   </component>
 </project>

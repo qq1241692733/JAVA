@@ -1,0 +1,46 @@
+import com.sun.scenario.effect.impl.prism.PrRenderInfo;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+/**
+ * Created with IntelliJ IDEA.
+ * Description:
+ * 文档注释 一般用于 方法的注释和类的注释
+ * User: hong yaO
+ * Date: 2021-04-2021/4/4
+ * Time: 9:39
+ */
+public class AjaxCalcServlet extends HttpServlet {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        this.doGet(request, response);
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setCharacterEncoding("utf-8");
+        response.setContentType("application/json");
+        int state = -1;//200有参数
+        String msg = "";
+        int sum = 0;
+        //1.先重前端获取参数
+        String num1 = request.getParameter("number1");
+        String num2 = request.getParameter("number2");
+        //todo:非空校验
+        if (num1 !=null && num2 != null && !num1.equals("") && !num2.equals("")) {
+            sum = Integer.parseInt("number1") + Integer.parseInt("number2");
+            state = 200;
+        }else {
+            msg = "非法请求";
+        }
+        //2.进行相应的义务处理
+
+        //3.返回结果给前端
+        //{"state":%d, "msg":"%s", "sum":%d}
+        PrintWriter writer = response.getWriter();
+        writer.println(String.format("{\"state\":%d, \"msg\":\"%s\", \"sum\":%d}",state,msg,sum));
+    }
+}

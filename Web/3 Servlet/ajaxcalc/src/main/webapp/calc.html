@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <script src = "jquery-1.9.1.min.js"></script>
+
+    <script>
+        function mysub() {
+            //todo:非空校验
+        jQuery.getJSON("ajaxcalc",{
+            "number1":jQuery("#num1").val(),
+            "number2":jQuery("#num2").val()
+        },function (data) {
+            if (data !=null && data.state == 200) {
+                alert(data.sum);
+            }else {
+                alert(data.msq);
+            }
+        });
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align: center">
+        <h1>我的计算器----Ajax版本</h1>
+        数字: <input id="num1" name="num1" type="number"><p></p>
+        数字: <input id="num2" name="num2" type="number"><p></p>
+        <input type="button" value="提交" onclick="mysub()">
+    </div>
+
+</body>
+</html>

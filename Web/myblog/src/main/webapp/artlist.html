@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的文章列表</title>
+    <script src="jquery-1.9.1.min.js"></script>
+    <script>
+        jQuery(function () {
+            //等页面加载完毕之后再执行
+
+            jQuery.getJSON("myartlist",{},function (data) {
+
+            })
+        })
+    </script>
+</head>
+<body>
+<div style="text-align: center; margin-top: 50px">
+    <h1>我的文章列表</h1>
+    <table id="tab" style="width: 80%;margin-left: 100px;" border="1" cellpadding="0">
+        <tr>
+            <td>编号</td>
+            <td>标题</td>
+            <td>创建时间</td>
+            <td>阅读量</td>
+            <td>操作</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
