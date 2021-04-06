@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1"
-         metadata-complete="true">
+         metadata-complete="false">
 
   <!-- 用来注册servlet接口实现类 -->
   <servlet>
@@ -25,5 +25,16 @@
     <servlet-name>login</servlet-name>
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
+
+  <!-- 用来登录servlet接口实现类 -->
+  <servlet>
+    <servlet-name>myartlist</servlet-name>
+    <servlet-class>services.MyArtListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>myartlist</servlet-name>
+    <url-pattern>/myartlist</url-pattern>
+  </servlet-mapping>
+
 
 </web-app>
