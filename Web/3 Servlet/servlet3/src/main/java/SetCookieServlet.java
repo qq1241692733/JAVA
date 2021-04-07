@@ -25,12 +25,12 @@ public class SetCookieServlet extends HttpServlet {
         //创建Cookie
         Cookie usernameCookie = new Cookie("username","java");
         //设置Cookie最大时间
-        usernameCookie.setMaxAge(60);   //60s  -1:"永"不过期,浏览器没有关闭
+        usernameCookie.setMaxAge(60);   //60s
         //用来高数客户端
         response.addCookie(usernameCookie);
 
         Cookie pwdcookie = new Cookie("pwd","pwd");
-        pwdcookie.setMaxAge(-1);
+        pwdcookie.setMaxAge(-1);       //-1:"永"不过期,浏览器没有关闭
         response.addCookie(pwdcookie);
 
         PrintWriter writer = response.getWriter();

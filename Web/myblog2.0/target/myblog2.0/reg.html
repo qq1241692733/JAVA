@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <script src="jquery-1.9.1.min.js"></script>
+    <script>
+        function mysub(type) {
+            var username = jQuery("#num1");
+            var password1 = jQuery("#pwd1")
+            var password2 = jQuery("#pwd2")
+            if (type == 2) {
+                if (confirm("确认清空")) {
+                    username.val("");
+                    password2.val("");
+                    password1.val("");
+                }
+                return false;
+            }
+            if (type == 1) {
+                //1.非空检验
+                if (username.val().trim() == "") {
+                    alert("请输入用户名");
+                    username.focus();
+                    return false;
+                }
+                if (password1.val().trim() == "") {
+                    alert("请输入密码")
+                    password1.focus();
+                    return false;
+                }
+                if (password2.val().trim() == "") {
+                    alert("请确认密码")
+                    password2.focus();
+                    return false;
+                }
+                if (password1.val() != password2.val()) {
+                    alert("确认密码与密码输入不一致")
+                    password2.val("");
+                    password2.focus();
+                    return false;
+                }
+                jQuery.getJSON("reg",{
+                    "username": username.val(),
+                    "password": password1.val()
+                },function (data) {
+                    if (data != null && data.succ != null && data.succ == 1) {
+                        alert("注册成功");
+                    }else {
+                        alert("注册失败");
+                    }
+                });
+            }
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align: center;margin-top: 100px">
+        <h1>用户注册</h1>
+        用 户 名: &nbsp; &nbsp;<input type="text" id="num1" name="num1"><p></p>
+        密 &nbsp;&nbsp;码: &nbsp; &nbsp;&nbsp; <input type="password" id="pwd1" name="pwd1"><p></p>
+        确认密码: &nbsp;<input type="password" id="pwd2" name="pwd2"><p></p>
+        <input type="button" value="提 交" onclick="mysub(1)">
+        <input type="button" value="清 空" onclick="mysub(2)">
+    </div>
+</body>
+</html>
