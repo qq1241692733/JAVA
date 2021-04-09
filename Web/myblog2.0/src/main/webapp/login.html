@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script src="jquery-1.9.1.min.js"></script>
+    <script>
+        function mysub(type) {
+            var username = jQuery("#username");
+            var password = jQuery("#password");
+            if (type == 2) {
+                if (confirm("确认清空")) {
+                    username.val("");
+                    password.val("");
+                    username.focus();
+                }
+                return false;
+            }
+            if (type == 1) {
+                //1.非空校验
+                if (username.val().trim() == "") {
+                    alert("请输入用户名");
+                    username.focus();
+                    return false
+                }
+                if (password.val().trim() == "") {
+                    alert("请输入用户名");
+                    username.focus();
+                    return false
+                }
+                jQuery.getJSON("login",{
+                    "username":username.val(),
+                    "password":password.val()
+                },function (data) {
+                    if (data != null && data.succ == 1) {
+                        alert("登录成功!");
+                        location.href = "myartlist.html";
+                    }else {
+                        alert("登录失败"+data.msg);
+                    }
+                });
+            }
+            if (type == 3) {
+                location.href = "reg.html";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align: center;margin-top: 70px;">
+        <h1>登录</h1>
+        账号: <input id="username" name="username" type="text"><p></p>
+        密码: <input id="password" name="password" type="password"><p></p>
+        <div style="margin-left:50px;">
+            <input type="button" value="登 录" onclick="mysub(1)">&nbsp;&nbsp;&nbsp;
+            <input type="button" value="清 空" onclick="mysub(2)">&nbsp;&nbsp;&nbsp;
+            <input type="button" value="注 册" onclick="mysub(3)">&nbsp;&nbsp;&nbsp;
+        </div>
+
+    </div>
+
+</body>
+</html>

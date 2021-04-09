@@ -46,10 +46,14 @@
                 },function (data) {
                     if (data != null && data.succ != null && data.succ == 1) {
                         alert("注册成功");
+                        location.href = "reg.html";
                     }else {
                         alert("注册失败");
                     }
                 });
+            }
+            if (type == 3) {
+                location.href = "login.html";
             }
         }
     </script>
@@ -60,8 +64,11 @@
         用 户 名: &nbsp; &nbsp;<input type="text" id="num1" name="num1"><p></p>
         密 &nbsp;&nbsp;码: &nbsp; &nbsp;&nbsp; <input type="password" id="pwd1" name="pwd1"><p></p>
         确认密码: &nbsp;<input type="password" id="pwd2" name="pwd2"><p></p>
-        <input type="button" value="提 交" onclick="mysub(1)">
-        <input type="button" value="清 空" onclick="mysub(2)">
+        <div style="margin-left: 50px;">
+            <input type="button" value="提 交" onclick="mysub(1)">&nbsp;&nbsp;&nbsp;
+            <input type="button" value="清 空" onclick="mysub(2)">&nbsp;&nbsp;&nbsp;
+            <input type="button" value="登 录" onclick="mysub(3)">&nbsp;&nbsp;&nbsp;
+        </div>
     </div>
 </body>
 </html>
