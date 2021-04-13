@@ -26,4 +26,14 @@
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
 
+  <!-- 用来登录servlet接口实现类 -->
+  <servlet>
+    <servlet-name>myartlist</servlet-name>
+    <servlet-class>services.MyArtListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>myartlist</servlet-name>
+    <url-pattern>/myartlist</url-pattern>
+  </servlet-mapping>
+
 </web-app>

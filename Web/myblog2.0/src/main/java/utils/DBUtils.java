@@ -21,7 +21,10 @@ public class DBUtils {
     public static Connection getConnection () throws SQLException {
         if (dataSource == null) {
             dataSource = new MysqlDataSource();
-            dataSource.setURL("jdbc:mysql://127.0.0.1:3306/myblog?charactionEncoding=utf-8&useSSL=true");
+            //本地:
+            //dataSource.setURL("jdbc:mysql://127.0.0.1:3306/myblog?characterEncoding=utf-8&useSSL=true");
+            //服务器:没有&useSSL=true
+            dataSource.setURL("jdbc:mysql://127.0.0.1:3306/myblog?characterEncoding=utf-8");
             dataSource.setUser("root");
             dataSource.setPassword("jhy1241692733");
         }

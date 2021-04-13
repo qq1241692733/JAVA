@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>我的文章列表</title>
+    <script src = jquery-1.9.1.min.js></script>
+    <script>
+        jQuery(function () {
+            //jQuery(function ()): 当页面加载完成后才会执行此方法
+
+            //1.去后端查询
+            jQuery.getJSON("myartlist",{},function (data) {
+                // 2.将 table 信息进行替换（替换成后台数据）
+                if (data != null && data.succ == 1) {
+                    // 查询成功，动态拼接 table
+                    var html = "";
+                    for (var i = 0; i < data.list.length; i++) {
+                        var article = data.list[i];
+                        html += " <tr>\n" +
+                            "            <td>\n" +
+                            article.id + "                \n" +
+                            "            </td>\n" +
+                            "            <td>\n" +
+                            article.title + "                \n" +
+                            "            </td>\n" +
+                            "            <td>\n" +
+                            article.createtime + "                \n" +
+                            "            </td>\n" +
+                            "            <td>\n" +
+                            article.rcount + "                \n" +
+                            "            </td>\n" +
+                            "            <td>\n" +
+                            "                <a href='upart.html?id=" + article.id +
+                            "'>修改</a> <a href='javascript:mydel(" + article.id + ");'>删除</a>\n" +
+                            "            </td>\n" +
+                            "        </tr>";
+                    }
+                    jQuery("#tab1").append(html);
+                } else {
+                    alert("操作失败：" + data.msg);
+                }
+            });
+        });
+    </script>
 </head>
 <body>
     <div style="margin-top: 50px;text-align: center">
         <h1>我的文章列表</h1>
+        <!--  列表:table  th td-->
         <table id="tab1" style="margin-left: 100px;width: 80%" border="1">
             <tr>
                 <th>编号</th>
@@ -16,7 +56,6 @@
                 <th>操作</th>
             </tr>
         </table>
-
     </div>
 </body>
 </html>
