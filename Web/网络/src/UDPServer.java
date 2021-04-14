@@ -35,6 +35,7 @@ public class UDPServer {
             String msg = new String(clientPacket.getData());
             System.out.println("接收到客户端的信息"+ msg);
             //个客户端一个响应
+
             String serMsg = "我收到了";
             //发送消息
             DatagramPacket serPacket = new DatagramPacket(

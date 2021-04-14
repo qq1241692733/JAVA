@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a475cf7-5350-48d0-91a6-4f8ec2da4555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../4. 数组中出现次数超过一半是数字/src/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/网络/src/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/网络/src/UDPServer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1r7Ut0rMuumIawzC8d5XbD7RUGG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Application.TestDemo1">
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <module name="5. 输出最长数字字串" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDemo1" />
+      <module name="5. 输出最长数字字串" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestDemo1" />
+        <item itemvalue="Application.TestDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a475cf7-5350-48d0-91a6-4f8ec2da4555" name="Default Changelist" comment="" />
+      <created>1618326832189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618326832189</updated>
+      <workItem from="1618326834470" duration="2694000" />
+      <workItem from="1618329903750" duration="2898000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1674" height="232" key="GridCell.Tab.0.bottom" timestamp="1618333590653">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="232" key="GridCell.Tab.0.bottom/0.0.1676.943@0.0.1676.943" timestamp="1618333590653" />
+    <state width="1674" height="232" key="GridCell.Tab.0.center" timestamp="1618333590653">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="232" key="GridCell.Tab.0.center/0.0.1676.943@0.0.1676.943" timestamp="1618333590653" />
+    <state width="1674" height="232" key="GridCell.Tab.0.left" timestamp="1618333590653">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="232" key="GridCell.Tab.0.left/0.0.1676.943@0.0.1676.943" timestamp="1618333590653" />
+    <state width="1674" height="232" key="GridCell.Tab.0.right" timestamp="1618333590653">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="232" key="GridCell.Tab.0.right/0.0.1676.943@0.0.1676.943" timestamp="1618333590653" />
+    <state width="1674" height="232" key="GridCell.Tab.1.bottom" timestamp="1618333590654">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="232" key="GridCell.Tab.1.bottom/0.0.1676.943@0.0.1676.943" timestamp="1618333590654" />
+    <state width="1674" height="232" key="GridCell.Tab.1.center" timestamp="1618333590653">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="232" key="GridCell.Tab.1.center/0.0.1676.943@0.0.1676.943" timestamp="1618333590653" />
+    <state width="1674" height="232" key="GridCell.Tab.1.left" timestamp="1618333590653">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="232" key="GridCell.Tab.1.left/0.0.1676.943@0.0.1676.943" timestamp="1618333590653" />
+    <state width="1674" height="232" key="GridCell.Tab.1.right" timestamp="1618333590653">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="232" key="GridCell.Tab.1.right/0.0.1676.943@0.0.1676.943" timestamp="1618333590653" />
+    <state x="567" y="230" key="extract.method.dialog" timestamp="1618333577581">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="567" y="230" key="extract.method.dialog/0.0.1676.943@0.0.1676.943" timestamp="1618333577581" />
+    <state x="772" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1618327645562">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="772" y="264" width="672" height="678" key="search.everywhere.popup/0.0.1676.943@0.0.1676.943" timestamp="1618327645562" />
+  </component>
+</project>
