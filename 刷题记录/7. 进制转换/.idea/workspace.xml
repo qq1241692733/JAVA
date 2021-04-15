@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0028402-0007-449a-94a1-1c5cbe6c285e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Web/网络/src/tcp/MyHttp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/网络/src/tcp/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/网络/src/tcp/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/网络/src/tcp/TCPServerByCN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. 数组中出现次数超过一半是数字/4. 数组中出现次数超过一半是数字.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. 计算糖果/6. 计算糖果.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. 计算糖果/src/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7. 进制转换.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8. 连续最大和/8. 连续最大和.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8. 连续最大和/src/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JaveSE/2 数据类型与运算符/猜数字游戏/out/production/猜数字游戏/TestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JaveSE/2 数据类型与运算符/猜数字游戏/out/production/猜数字游戏/TestDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/网络/out/production/网络/UDPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/网络/out/production/网络/UDPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/网络/src/UDPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/网络/src/udp/UDPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/网络/src/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/网络/src/udp/UDPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5. 输出最长数字字串/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5. 输出最长数字字串/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1rAKFY6LBakzxlkVgp9hkaJKCC3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <module name="7. 进制转换" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0028402-0007-449a-94a1-1c5cbe6c285e" name="Default Changelist" comment="" />
+      <created>1618413350233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618413350233</updated>
+      <workItem from="1618413355042" duration="1973000" />
+      <workItem from="1618485942742" duration="63000" />
+      <workItem from="1618504487095" duration="2855000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1674" height="187" key="GridCell.Tab.0.bottom" timestamp="1618507363018">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="187" key="GridCell.Tab.0.bottom/0.0.1676.943@0.0.1676.943" timestamp="1618507363018" />
+    <state width="1674" height="187" key="GridCell.Tab.0.center" timestamp="1618507363017">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="187" key="GridCell.Tab.0.center/0.0.1676.943@0.0.1676.943" timestamp="1618507363017" />
+    <state width="1674" height="187" key="GridCell.Tab.0.left" timestamp="1618507363017">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="187" key="GridCell.Tab.0.left/0.0.1676.943@0.0.1676.943" timestamp="1618507363017" />
+    <state width="1674" height="187" key="GridCell.Tab.0.right" timestamp="1618507363017">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="187" key="GridCell.Tab.0.right/0.0.1676.943@0.0.1676.943" timestamp="1618507363017" />
+    <state width="1674" height="187" key="GridCell.Tab.1.bottom" timestamp="1618507363018">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="187" key="GridCell.Tab.1.bottom/0.0.1676.943@0.0.1676.943" timestamp="1618507363018" />
+    <state width="1674" height="187" key="GridCell.Tab.1.center" timestamp="1618507363018">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="187" key="GridCell.Tab.1.center/0.0.1676.943@0.0.1676.943" timestamp="1618507363018" />
+    <state width="1674" height="187" key="GridCell.Tab.1.left" timestamp="1618507363018">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="187" key="GridCell.Tab.1.left/0.0.1676.943@0.0.1676.943" timestamp="1618507363018" />
+    <state width="1674" height="187" key="GridCell.Tab.1.right" timestamp="1618507363018">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state width="1674" height="187" key="GridCell.Tab.1.right/0.0.1676.943@0.0.1676.943" timestamp="1618507363018" />
+    <state x="232" y="128" key="new project wizard" timestamp="1618485999023">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="232" y="128" key="new project wizard/0.0.1676.943@0.0.1676.943" timestamp="1618485999023" />
+  </component>
+</project>
