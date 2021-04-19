@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a475cf7-5350-48d0-91a6-4f8ec2da4555" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../4. 数组中出现次数超过一半是数字/src/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web/网络/src/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/网络/src/UDPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9. 统计回文/src/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JaveSE/2 数据类型与运算符/猜数字游戏/out/production/猜数字游戏/TestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JaveSE/2 数据类型与运算符/猜数字游戏/out/production/猜数字游戏/TestDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/网络/out/production/网络/UDPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/网络/out/production/网络/UDPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7. 进制转换/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7. 进制转换/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. 连续最大和/src/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. 连续最大和/src/TestDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +95,10 @@
       <updated>1618326832189</updated>
       <workItem from="1618326834470" duration="2694000" />
       <workItem from="1618329903750" duration="2898000" />
+      <workItem from="1618404037198" duration="29000" />
+      <workItem from="1618560911780" duration="608000" />
+      <workItem from="1618565417540" duration="89000" />
+      <workItem from="1618565642494" duration="25000" />
     </task>
     <servers />
   </component>
@@ -151,6 +154,10 @@
       <screen x="0" y="0" width="1676" height="943" />
     </state>
     <state x="567" y="230" key="extract.method.dialog/0.0.1676.943@0.0.1676.943" timestamp="1618333577581" />
+    <state x="456" y="154" key="new project wizard" timestamp="1618404063183">
+      <screen x="0" y="0" width="1676" height="943" />
+    </state>
+    <state x="456" y="154" key="new project wizard/0.0.1676.943@0.0.1676.943" timestamp="1618404063183" />
     <state x="772" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1618327645562">
       <screen x="0" y="0" width="1676" height="943" />
     </state>

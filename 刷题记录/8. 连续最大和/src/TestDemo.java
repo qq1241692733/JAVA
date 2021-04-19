@@ -22,21 +22,13 @@ public class TestDemo {
             sum = arr[0];
             maxSum = arr[0];
         }
-        int ins = -1;
         for (int i = 1; i < n; i++) {
             if (arr[i] < 0) {
-                ins = -2;
-            }else if (arr[i] == arr[i-1] +1) {
-                ins = 1;
-            }else if (arr[i] == arr[i-1] - 1) {
-                ins = -1;
-            }else {
-                ins = 0;
-            }
-            if (ins == 1 || ins == - 1) {
-                sum = arr[i] + arr[i -1];
+                sum = 0;
+            }else if (arr[i] == arr[i-1] +1 || arr[i] == arr[i-1]-1) {
+                sum = sum + arr[i];
                 maxSum = Math.max(sum,maxSum);
-            }else if (ins == 0){
+            }else {
                 sum = arr[i];
                 maxSum = Math.max(sum,maxSum);
             }
@@ -44,8 +36,6 @@ public class TestDemo {
         System.out.println(maxSum);
     }
 }
-
-
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        int n = scanner.nextInt();
@@ -59,17 +49,28 @@ public class TestDemo {
 //            sum = arr[0];
 //            maxSum = arr[0];
 //        }
+//        int ins = -1;
 //        for (int i = 1; i < n; i++) {
-//            if ((arr[i] >= 0 && sum==0) || (arr[i] >= 0 && (arr[i] == arr[i-1] +1 || arr[i] == arr[i-1]-1))) {
-//                sum = sum + arr[i];
-//                maxSum = Math.max(sum,maxSum);
+//            if (arr[i] < 0) {
+//                ins = -2;
+//            }else if (arr[i] == arr[i-1] +1) {
+//                ins = 1;
+//            }else if (arr[i] == arr[i-1] - 1) {
+//                ins = -1;
 //            }else {
-//                sum = 0;
-//                if (arr[i] > 0) {
-//                    sum = arr[i];
-//                    maxSum = Math.max(sum,maxSum);
-//                }
+//                ins = 0;
+//            }
+//            if (ins == 1 || ins == - 1) {
+//                sum = arr[i] + arr[i -1];
+//                maxSum = Math.max(sum,maxSum);
+//            }else if (ins == 0){
+//                sum = arr[i];
+//                maxSum = Math.max(sum,maxSum);
 //            }
 //        }
 //        System.out.println(maxSum);
 //    }
+
+
+
+
