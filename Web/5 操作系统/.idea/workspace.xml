@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45840d8e-2e88-416e-85e6-395a51d779af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../操作系统/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../操作系统/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../操作系统/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../操作系统/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../操作系统/操作系统.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/out/production/网络/META-INF/网络.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/out/production/网络/tcp/MyHttp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/out/production/网络/tcp/TCPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/out/production/网络/tcp/TCPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/out/production/网络/tcp/TCPServerByCN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/out/production/网络/udp/UDPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/out/production/网络/udp/UDPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/src/tcp/MyHttp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/src/tcp/TCPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/src/tcp/TCPServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/src/tcp/TCPServerByCN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/src/udp/UDPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/src/udp/UDPServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../网络/网络.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1rwLsDf04mTsw67Gc3mBH95xMQK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45840d8e-2e88-416e-85e6-395a51d779af" name="Default Changelist" comment="" />
+      <created>1619882410104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619882410104</updated>
+      <workItem from="1619882417116" duration="3000" />
+    </task>
+    <servers />
+  </component>
+</project>
