@@ -20,19 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8def24f6-be97-4902-a886-82bbfba5844d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/6 多线程.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1. 线程的创建/1. 线程的创建.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1. 线程的创建/6 多线程.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. 多线程练习/2. 多线程练习.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. 多线程练习/src/thread_0502/ThreadDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. 多线程练习/src/thread_0502/ThreadDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6 多线程.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/6 多线程/thread_0501/ThreadDemo1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/6 多线程/thread_0501/ThreadDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread_0501/ThreadDemo1.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. 属性/src/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. 属性/src/ThreadDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. 属性/src/ThreadDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/3. 属性/ThreadDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/3. 属性/ThreadDemo1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/3. 属性/ThreadDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/3. 属性/ThreadDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2. 多线程练习/thread_0502/ThreadDemo2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2. 多线程练习/thread_0502/ThreadDemo2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2. 多线程练习/thread_0502/ThreadDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2. 多线程练习/thread_0502/ThreadDemo2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo2">
+  <component name="RunManager" selected="Application.ThreadDemo2 (1)">
     <configuration name="FoundThread6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread_0502.FoundThread6" />
       <module name="1. 线程的创建" />
@@ -82,15 +79,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread_0502.ThreadDemo1" />
-      <module name="2. 多线程练习" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread_0502.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo" />
+      <module name="3. 属性" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo1" />
+      <module name="3. 属性" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo2" />
+      <module name="3. 属性" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,9 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDemo2 (1)" />
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.ThreadDemo1 (1)" />
         <item itemvalue="Application.ThreadDemo2" />
         <item itemvalue="Application.FoundThread6" />
-        <item itemvalue="Application.ThreadDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619926419736</updated>
       <workItem from="1619926421089" duration="6873000" />
+      <workItem from="1619973460053" duration="3081000" />
     </task>
     <servers />
   </component>
@@ -143,24 +151,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1004" height="184" key="GridCell.Tab.0.bottom" timestamp="1619969055598">
+    <state width="1005" height="184" key="GridCell.Tab.0.bottom" timestamp="1619975959368">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
-    <state width="1004" height="184" key="GridCell.Tab.0.bottom/0.0.1676.943@0.0.1676.943" timestamp="1619969055598" />
-    <state width="1004" height="184" key="GridCell.Tab.0.center" timestamp="1619969055598">
+    <state width="1005" height="184" key="GridCell.Tab.0.bottom/0.0.1676.943@0.0.1676.943" timestamp="1619975959368" />
+    <state width="1005" height="184" key="GridCell.Tab.0.center" timestamp="1619975959367">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
-    <state width="1004" height="184" key="GridCell.Tab.0.center/0.0.1676.943@0.0.1676.943" timestamp="1619969055598" />
-    <state width="1004" height="184" key="GridCell.Tab.0.left" timestamp="1619969055598">
+    <state width="1005" height="184" key="GridCell.Tab.0.center/0.0.1676.943@0.0.1676.943" timestamp="1619975959367" />
+    <state width="1005" height="184" key="GridCell.Tab.0.left" timestamp="1619975959367">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
-    <state width="1004" height="184" key="GridCell.Tab.0.left/0.0.1676.943@0.0.1676.943" timestamp="1619969055598" />
-    <state width="1004" height="184" key="GridCell.Tab.0.right" timestamp="1619969055598">
+    <state width="1005" height="184" key="GridCell.Tab.0.left/0.0.1676.943@0.0.1676.943" timestamp="1619975959367" />
+    <state width="1005" height="184" key="GridCell.Tab.0.right" timestamp="1619975959367">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
-    <state width="1004" height="184" key="GridCell.Tab.0.right/0.0.1676.943@0.0.1676.943" timestamp="1619969055598" />
+    <state width="1005" height="184" key="GridCell.Tab.0.right/0.0.1676.943@0.0.1676.943" timestamp="1619975959367" />
     <state x="393" y="145" key="new project wizard" timestamp="1619968227260">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
