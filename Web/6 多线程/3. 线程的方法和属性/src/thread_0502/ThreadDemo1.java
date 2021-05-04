@@ -1,3 +1,5 @@
+package thread_0502;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:

@@ -1,9 +1,11 @@
+package thread_0502;
+
 import javax.swing.plaf.TableHeaderUI;
 
 /**
  * Created with IntelliJ IDEA.
  * Description:
- * 文档注释 一般用于 方法的注释和类的注释
+ *    守护线程和用户线程
  * User: hong yaO
  * Date: 2021-05-2021/5/3
  * Time: 1:00

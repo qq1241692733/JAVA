@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8def24f6-be97-4902-a886-82bbfba5844d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3. 属性/src/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3. 属性/src/ThreadDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3. 属性/src/ThreadDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/3. 属性/ThreadDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/3. 属性/ThreadDemo1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/3. 属性/ThreadDemo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/3. 属性/ThreadDemo2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2. 多线程练习/thread_0502/ThreadDemo2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2. 多线程练习/thread_0502/ThreadDemo2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2. 多线程练习/thread_0502/ThreadDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2. 多线程练习/thread_0502/ThreadDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. 属性/src/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. 属性/src/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. 属性/src/ThreadDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. 属性/src/ThreadDemo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1619926419736</updated>
       <workItem from="1619926421089" duration="6873000" />
-      <workItem from="1619973460053" duration="3081000" />
+      <workItem from="1619973460053" duration="3101000" />
+      <workItem from="1620009886291" duration="374000" />
     </task>
     <servers />
   </component>
@@ -154,22 +148,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1005" height="184" key="GridCell.Tab.0.bottom" timestamp="1619975959368">
+    <state width="1005" height="184" key="GridCell.Tab.0.bottom" timestamp="1619977041643">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
-    <state width="1005" height="184" key="GridCell.Tab.0.bottom/0.0.1676.943@0.0.1676.943" timestamp="1619975959368" />
-    <state width="1005" height="184" key="GridCell.Tab.0.center" timestamp="1619975959367">
+    <state width="1005" height="184" key="GridCell.Tab.0.bottom/0.0.1676.943@0.0.1676.943" timestamp="1619977041643" />
+    <state width="1005" height="184" key="GridCell.Tab.0.center" timestamp="1619977041642">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
-    <state width="1005" height="184" key="GridCell.Tab.0.center/0.0.1676.943@0.0.1676.943" timestamp="1619975959367" />
-    <state width="1005" height="184" key="GridCell.Tab.0.left" timestamp="1619975959367">
+    <state width="1005" height="184" key="GridCell.Tab.0.center/0.0.1676.943@0.0.1676.943" timestamp="1619977041642" />
+    <state width="1005" height="184" key="GridCell.Tab.0.left" timestamp="1619977041642">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
-    <state width="1005" height="184" key="GridCell.Tab.0.left/0.0.1676.943@0.0.1676.943" timestamp="1619975959367" />
-    <state width="1005" height="184" key="GridCell.Tab.0.right" timestamp="1619975959367">
+    <state width="1005" height="184" key="GridCell.Tab.0.left/0.0.1676.943@0.0.1676.943" timestamp="1619977041642" />
+    <state width="1005" height="184" key="GridCell.Tab.0.right" timestamp="1619977041643">
       <screen x="0" y="0" width="1676" height="943" />
     </state>
-    <state width="1005" height="184" key="GridCell.Tab.0.right/0.0.1676.943@0.0.1676.943" timestamp="1619975959367" />
+    <state width="1005" height="184" key="GridCell.Tab.0.right/0.0.1676.943@0.0.1676.943" timestamp="1619977041643" />
     <state x="393" y="145" key="new project wizard" timestamp="1619968227260">
       <screen x="0" y="0" width="1676" height="943" />
     </state>

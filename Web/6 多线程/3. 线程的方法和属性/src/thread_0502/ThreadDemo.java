@@ -1,7 +1,9 @@
+package thread_0502;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
- * 文档注释 一般用于 方法的注释和类的注释
+ *      打印 Thread 的属性
  * User: hong yaO
  * Date: 2021-05-2021/5/3
  * Time: 0:38
