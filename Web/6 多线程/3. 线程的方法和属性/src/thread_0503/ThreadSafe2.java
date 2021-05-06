@@ -5,19 +5,26 @@ import java.util.TreeMap;
 /**
  * Created with IntelliJ IDEA.
  * Description:
- * 文档注释 一般用于 方法的注释和类的注释
+        内存可见性
  * User: hong yaO
  * Date: 2021-05-2021/5/3
  * Time: 18:35
  */
-public class ThreadSafe3 {
+public class ThreadSafe2 {
+    //private static volatile boolean flag = false;
     private static boolean flag = false;
     public static void main(String[] args) {
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
                 while (!flag){
-
+                    // 没内容，会将 flag 放到缓存里，导致内存不可见
+                    /**
+                     变量用 volatile 修饰：
+                        解决线程可见性问题
+                        禁止指令重回排序
+                     实现原理：
+                     */
                 }
                 System.out.println("终止执行");
             }
