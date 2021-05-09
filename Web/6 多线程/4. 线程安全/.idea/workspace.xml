@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7423703b-38f9-4823-a3d2-b3fa5e573f41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Web/6 多线程/4. 线程安全/.idea/4. 线程安全.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/6 多线程/4. 线程安全/1. 死锁/1. 死锁.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. 休眠唤醒/4. 休眠唤醒.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. 休眠唤醒/src/ThreadDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. 休眠唤醒/src/ThreadDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. 休眠唤醒/src/ThreadDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1. 死锁/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1. 死锁/1. 死锁.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1. 死锁/src/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1. 死锁/src/ThreadDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1. 死锁/src/ThreadDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1. 死锁/src/ThreadDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1. 死锁/src/ThreadDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/6 多线程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/6 多线程/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1sIvnS3LDmUTcPLKDk2udtREnib" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7423703b-38f9-4823-a3d2-b3fa5e573f41" name="Default Changelist" comment="" />
+      <created>1620573085383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620573085383</updated>
+      <workItem from="1620573096467" duration="14000" />
+    </task>
+    <servers />
+  </component>
+</project>
