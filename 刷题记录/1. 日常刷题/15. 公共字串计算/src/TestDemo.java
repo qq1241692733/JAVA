@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class TestDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //str2: werasdfaswer   i
-        //str1: wedfas         j
+        //str2: werasdfaswer    i
+        //str1: wedfas          j
         String str1 = scanner.next();
         String str2 = scanner.next();
         if (str1.length() > str2.length()) {
