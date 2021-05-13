@@ -12,14 +12,23 @@ import java.util.Scanner;
 public class TestDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //str2: werasdfaswer   i
+        //str1: wedfas         j
         String str1 = scanner.next();
         String str2 = scanner.next();
+        if (str1.length() > str2.length()) {
+            String  s = str1;
+            str1 = str2;
+            str2 = s;
+        }
+        int count = 0;
         for (int i = 0; i < str2.length(); i++) {
-            if (str2.charAt(i) == str1.charAt(i)) {
-                for (int j = 1; j < str1.length(); j++) {
-                    if (str1.charAt(j) != str2.charAt(i + j)) {
-                        break;
-                    }
+            int s1 = 0;
+            for (int j = 0; j < str1.length(); j++) {
+                int m = i;
+                int n = 0;
+                while (str1.charAt(i) == str2.charAt(j)) {
+                    
                 }
             }
         }
