@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  * Date: 2021-05-2021/5/23
  * Time: 0:54
  */
-public class ThreadPollDemo7 {
+public class ThreadPoolDemo7 {
     public static void main(String[] args) {
         // 创建单个执行任务的线程池
         ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();

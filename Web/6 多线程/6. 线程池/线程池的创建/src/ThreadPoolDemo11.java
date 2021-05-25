@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * Date: 2021-05-2021/5/23
  * Time: 9:23
  */
-public class ThreadPollDemo11 {
+public class ThreadPoolDemo11 {
     public static void main(String[] args) throws InterruptedException {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5,5,
                 0, TimeUnit.SECONDS, new LinkedBlockingDeque<>(5),

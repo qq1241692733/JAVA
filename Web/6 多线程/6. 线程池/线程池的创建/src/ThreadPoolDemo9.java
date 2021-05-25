@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
  * Date: 2021-05-2021/5/23
  * Time: 1:05
  */
-public class ThreadPollDemo9 {
+public class ThreadPoolDemo9 {
     public static void main(String[] args) {
         // 根据当前的工作环(CPU核心数、任务量)异步线程池
         // 同步：按照某种规则，按序执行

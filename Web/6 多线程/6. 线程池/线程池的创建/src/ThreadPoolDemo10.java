@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
  * Date: 2021-05-2021/5/23
  * Time: 1:15
  */
-public class ThreadPollDemo10 {
+public class ThreadPoolDemo10 {
     public static void main(String[] args) {
         Object[] objects = new Object[15];
         ExecutorService service = Executors.newFixedThreadPool(15);

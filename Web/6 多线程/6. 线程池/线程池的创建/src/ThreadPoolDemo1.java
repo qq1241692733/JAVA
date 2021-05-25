@@ -6,19 +6,19 @@ import java.util.concurrent.Executors;
  * Description:
  * 文档注释 一般用于 方法的注释和类的注释
  * User: hong yaO
- * Date: 2021-05-2021/5/23
- * Time: 1:02
+ * Date: 2021-05-2021/5/22
+ * Time: 17:10
  */
-public class ThreadPollDemo8 {
+public class ThreadPoolDemo1 {
     public static void main(String[] args) {
-        // 创建单个线程池
-        ExecutorService service = Executors.newSingleThreadExecutor();
+        // 固定个数线程池的创建
+        ExecutorService service = Executors.newFixedThreadPool(2);
         for (int i = 0; i < 10; i++) {
             // 执行任务
             service.execute(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println("线程名: "+ Thread.currentThread().getName());
+                    System.out.println("线程名：" + Thread.currentThread().getName());
                 }
             });
         }

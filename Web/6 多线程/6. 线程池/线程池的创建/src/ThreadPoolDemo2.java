@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * Date: 2021-05-2021/5/23
  * Time: 0:05
  */
-public class ThreadPollDemo2 {
+public class ThreadPoolDemo2 {
     public static void main(String[] args) {
         // 线程工厂
         MyThreadFaction myThreadFaction = new MyThreadFaction();
@@ -27,6 +27,7 @@ public class ThreadPollDemo2 {
             });
         }
     }
+
     private static int count = 1;
     static class MyThreadFaction implements ThreadFactory {
         @Override

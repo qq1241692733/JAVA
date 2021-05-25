@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
  * Date: 2021-05-2021/5/23
  * Time: 0:17
  */
-public class ThreadPollDemo3 {
+public class ThreadPoolDemo3 {
     public static void main(String[] args) {
         ExecutorService service = Executors.newCachedThreadPool();
         for (int i = 0; i < 100; i++) {

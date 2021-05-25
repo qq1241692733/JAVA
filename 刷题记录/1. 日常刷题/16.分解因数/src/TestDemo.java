@@ -16,13 +16,18 @@ public class TestDemo {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             int num = sc.nextInt();
-            while () {
-                for (int i = 2; i <= sqrt(num); i++) {
-                    if (num % i == 0) {
-                        num = num / i;
-                    }
+            System.out.print(String.format("%d = ",num));
+            int i = 2;
+            int n = num;
+            while (i <= sqrt(num)) {
+                if (num % i == 0) {
+                    System.out.print(i + " * ");
+                    num = num/i;
+                }else {
+                    i ++;
                 }
             }
+            System.out.println(num);
         }
     }
 
