@@ -1,3 +1,5 @@
+package 单例模式;
+
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**

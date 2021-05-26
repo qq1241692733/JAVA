@@ -1,3 +1,5 @@
+package 单例模式;
+
 /**
  * Created with IntelliJ IDEA.
       饿汉模式:
