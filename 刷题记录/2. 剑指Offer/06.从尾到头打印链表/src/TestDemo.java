@@ -32,6 +32,7 @@ public class TestDemo {
         node1.next = node2;
         display(head);
         System.out.println(Arrays.toString(reversePrint(head)));
+        
     }
     public static int[] reversePrint(ListNode head) {
         Stack<ListNode> stack = new Stack<ListNode>();
