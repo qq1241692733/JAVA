@@ -1,6 +1,9 @@
 import jdk.internal.org.objectweb.asm.Handle;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.ListIterator;
+import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -28,16 +31,24 @@ public class TestDemo {
         node.next = node1;
         node1.next = node2;
         display(head);
-        reverseList(head);
-        display(head);
-//        int[] arr = reversePrint(head);
-//        System.out.println(arr.toString());
+        System.out.println(Arrays.toString(reversePrint(head)));
+    }
+    public static int[] reversePrint(ListNode head) {
+        Stack<ListNode> stack = new Stack<ListNode>();
+        ListNode temp = head;
+        while (temp != null) {
+            stack.push(temp);
+            temp = temp.next;
+        }
+        int size = stack.size();
+        int[] print = new int[size];
+        for (int i = 0; i < size; i++) {
+            print[i] = stack.pop().val;
+        }
+        return print;
     }
 
-    public static int[] reversePrint(ListNode head) {
-        int[] ret = new int[10];
-        return ret;
-    }
+
 
     // 反转链表
     public static void reverseList(ListNode head) {
