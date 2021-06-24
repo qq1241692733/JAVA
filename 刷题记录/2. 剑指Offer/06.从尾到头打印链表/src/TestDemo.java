@@ -1,14 +1,13 @@
-import jdk.internal.org.objectweb.asm.Handle;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.ListIterator;
 import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
  * Description:
- * 文档注释 一般用于 方法的注释和类的注释
+     输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
+         输入：head = [1,3,2]
+         输出：[2,3,1]
  * User: hong yaO
  * Date: 2021-05-2021/5/26
  * Time: 17:29
@@ -32,21 +31,19 @@ public class TestDemo {
         node1.next = node2;
         display(head);
         System.out.println(Arrays.toString(reversePrint(head)));
-        
     }
     public static int[] reversePrint(ListNode head) {
-        Stack<ListNode> stack = new Stack<ListNode>();
-        ListNode temp = head;
-        while (temp != null) {
-            stack.push(temp);
-            temp = temp.next;
+        Stack <ListNode> stack = new Stack<>();
+        ListNode cur = head;
+        while (cur != null) {
+            stack.push(cur);
+            cur = cur.next;
         }
-        int size = stack.size();
-        int[] print = new int[size];
-        for (int i = 0; i < size; i++) {
-            print[i] = stack.pop().val;
+        int [] reverseArr = new int[stack.size()];
+        for (int i = 0; i < reverseArr.length; i++) {
+            reverseArr[i] = stack.pop().val;
         }
-        return print;
+        return reverseArr;
     }
 
 
