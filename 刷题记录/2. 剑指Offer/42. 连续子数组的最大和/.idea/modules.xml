@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/1.动态规划.iml" filepath="$PROJECT_DIR$/1.动态规划.iml" />
+      <module fileurl="file://$PROJECT_DIR$/42. 连续子数组的最大和.iml" filepath="$PROJECT_DIR$/42. 连续子数组的最大和.iml" />
     </modules>
   </component>
 </project>
