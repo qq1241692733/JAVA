@@ -20,19 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f41d7de-eabc-44d5-9ba4-96a08bd5ca76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../6.三角形最小路径和/6.三角形最小路径和.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6.三角形最小路径和/src/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8.不同路径Ⅱ/src/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/12.集合框架及背后的数据结构.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/13.List.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/14.栈和队列.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/15.二叉树.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/16.优先级队列(堆).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/17.java对象的比较.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/18.排序.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/19.泛型.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/20.Map和Set.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../数据结构/课件：Java集合与数据结构/21.反射枚举及Lambda的使用.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +84,8 @@
       <workItem from="1627118175221" duration="10000" />
       <workItem from="1627118232100" duration="11000" />
       <workItem from="1627123602655" duration="1788000" />
+      <workItem from="1627128604377" duration="755000" />
+      <workItem from="1627270313019" duration="46000" />
     </task>
     <servers />
   </component>
@@ -119,6 +109,10 @@
       <screen x="0" y="0" width="1676" height="913" />
     </state>
     <state x="463" y="134" key="#Inspections/0.0.1676.913@0.0.1676.913" timestamp="1627117502897" />
+    <state x="771" y="207" key="FileChooserDialogImpl" timestamp="1627270343904">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state x="771" y="207" key="FileChooserDialogImpl/0.0.1676.913@0.0.1676.913" timestamp="1627270343904" />
     <state width="1081" height="169" key="GridCell.Tab.0.bottom" timestamp="1627118242849">
       <screen x="0" y="0" width="1676" height="913" />
     </state>
@@ -151,9 +145,9 @@
       <screen x="0" y="0" width="1676" height="913" />
     </state>
     <state width="1632" height="209" key="GridCell.Tab.1.right/0.0.1676.913@0.0.1676.913" timestamp="1627118122784" />
-    <state x="381" y="76" key="new project wizard" timestamp="1627118118578">
+    <state x="381" y="76" key="new project wizard" timestamp="1627270354813">
       <screen x="0" y="0" width="1676" height="913" />
     </state>
-    <state x="381" y="76" key="new project wizard/0.0.1676.913@0.0.1676.913" timestamp="1627118118578" />
+    <state x="381" y="76" key="new project wizard/0.0.1676.913@0.0.1676.913" timestamp="1627270354813" />
   </component>
 </project>
