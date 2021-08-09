@@ -14,7 +14,11 @@ public class TestDemo {
         int[] array = {8,6,4,2,9,5,7,1,3,10};
         System.out.println(Arrays.toString(array));
         //Sort.insertSort(array);
-        Sort.shellSort(array);
+        //Sort.shellSort(array);
+        //Sort.selectSort(array);
+        //Sort.heapSort(array);
+        //Sort.bubbleSort(array);
+        Sort.quickSort(array);
         System.out.println(Arrays.toString(array));
     }
 }
