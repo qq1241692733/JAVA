@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -180,6 +181,148 @@ public class Sort {
     }
     public static void quickSort(int[] array) {
         quick(array, 0, array.length - 1);
+    }
+
+    /**
+     *    优化： 随机选取法：随机选个下表和第一个数交换
+     *    3数取中法：选3个数（最左、最右、中间）把中间大小的数和第一个数交换
+     *           array[mid] <= array[low] <= array[high]
+     *           在数据数量小于预设范围时，可以使用插入排序，欣慰快排越递归越有序，插入排序越有序越快
+      */
+    public static void medianOfThree(int[] array, int low, int high) {
+        int mid = (low + high) / 2;
+        int[] arr = {array[low], array[mid], array[high]};
+        Arrays.sort(arr);
+        array[low] = arr[1];
+        array[mid] = arr[0];
+        array[high] = arr[2];
+    }
+    public static void quick1(int[] array, int low, int high) {
+        medianOfThree(array, low, high);
+
+        if (low < high) {
+            int piv = pivot(array, low, high);
+            quick(array, low, piv - 1);
+            quick(array, piv + 1, high);
+        }
+    }
+    public static void quickSort1(int[] array) {
+        quick1(array, 0, array.length - 1);
+    }
+    /**
+     * 非递归
+     */
+    public static void quickSort2(int[] array) {
+        Stack<Integer> stack = new Stack<>();
+        int low = 0;
+        int high = array.length - 1;
+        int piv = pivot(array, low, high);
+        if (piv > low + 1) {
+            stack.push(low);
+            stack.push(piv - 1);
+        }
+        if (piv < high - 1) {
+            stack.push(piv + 1);
+            stack.push(high);
+        }
+        while (!stack.empty()) {
+            high = stack.pop();
+            low = stack.pop();
+            piv = pivot(array, low, high);
+            if (piv > low + 1) {
+                stack.push(low);
+                stack.push(piv - 1);
+            }
+            if (piv < high - 1) {
+                stack.push(piv + 1);
+                stack.push(high);
+            }
+        }
+    }
+
+    /**
+     * 归并排序
+     *   时间复杂度： O（nlogn）不管好坏
+     *   空间复杂度： O（n）
+     *   稳定性： 稳定
+     */
+    public static void mergeSortInternal(int[] array, int low, int high) {
+        if (low >= high) return;
+        int mid = (low + high) / 2;
+        mergeSortInternal(array, low, mid);
+        mergeSortInternal(array, mid + 1, high);
+        merge(array, low, mid, high);
+    }
+    private static void merge(int[] array, int low, int mid, int high) {
+        int s1 = low;
+        int s2 = mid + 1;
+        int[] tmp = new int[high - low + 1];
+        int k = 0;
+        while (s1 <= mid && s2 <= high) {
+            if (array[s1] <= array[s2]) {
+                tmp[k++] = array[s1++];
+            }
+            if (array[s2] <= array[s1]) {
+                tmp[k++] = array[s2++];
+            }
+        }
+        while (s1 <= mid) {
+            tmp[k++] = array[s1++];
+        }
+        while (s2 <= high) {
+            tmp[k++] = array[s2++];
+        }
+        for (int i = 0; i < tmp.length; i++) {
+            array[i + low] = tmp[i];
+        }
+    }
+    public static void mergeSort(int[] array) {
+        mergeSortInternal(array, 0, array.length - 1);
+    }
+
+    /**
+     * 非递归实现归并排序
+     */
+    private static void merge1(int[] array, int gap) {
+        int s1 = 0;
+        int e1 = s1 + gap - 1;
+        int s2 = e1 + 1;
+        int e2 = s2 + gap - 1 < array.length ? s2 + gap - 1 : array.length - 1;  // 防止越界
+        int[] tmp = new int[array.length];
+        int k = 0;
+
+        while (s2 < array.length) {   // 有两个归并段
+            while (s1 <= e1 && s2 <= e2) {
+                if (array[s1] <= array[s2]) {
+                    tmp[k++] = array[s1++];
+                }
+                if (array[s2] <= array[s1]) {
+                    tmp[k++] = array[s2++];
+                }
+            }
+            while (s1 <= e1) {
+                tmp[k++] = array[s1++];
+            }
+            while (s2 <= e2) {
+                tmp[k++] = array[s2++];
+            }
+            s1 = e2 + 1;
+            e1 = s1 + gap - 1;
+            s2 = e1 + 1;
+            e2 = s2 + gap - 1 < array.length ? s2 + gap - 1 : array.length - 1;
+        }
+        while (s1 < array.length) {
+            tmp[k++] = array[s1++];
+        }
+        for (int i = 0; i < tmp.length; i++) {
+            array[i] = tmp[i];
+        }
+
+    }
+    public static void mergeSort1(int[] array) {
+        for (int i = 1; i < array.length; i *= 2) {
+            merge1(array, i);
+        }
     }
 
 }

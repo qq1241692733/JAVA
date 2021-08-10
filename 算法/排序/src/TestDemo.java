@@ -18,7 +18,11 @@ public class TestDemo {
         //Sort.selectSort(array);
         //Sort.heapSort(array);
         //Sort.bubbleSort(array);
-        Sort.quickSort(array);
+        //Sort.quickSort(array);
+        //Sort.quickSort1(array);
+        //Sort.quickSort2(array);
+        //Sort.mergeSort(array);
+        Sort.mergeSort1(array);
         System.out.println(Arrays.toString(array));
     }
 }
