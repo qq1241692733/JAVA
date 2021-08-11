@@ -11,18 +11,18 @@ import java.util.Arrays;
  */
 public class TestDemo {
     public static void main(String[] args) {
-        int[] array = {8,6,4,2,9,5,7,1,3,10};
+        int[] array = {8,6,4,2,9,5,7,1,3};
         System.out.println(Arrays.toString(array));
         //Sort.insertSort(array);
         //Sort.shellSort(array);
         //Sort.selectSort(array);
-        //Sort.heapSort(array);
+        Sort.heapSort(array);
         //Sort.bubbleSort(array);
         //Sort.quickSort(array);
         //Sort.quickSort1(array);
         //Sort.quickSort2(array);
         //Sort.mergeSort(array);
-        Sort.mergeSort1(array);
+        //Sort.mergeSort1(array);
         System.out.println(Arrays.toString(array));
     }
 }

@@ -217,7 +217,7 @@ public class Sort {
         int low = 0;
         int high = array.length - 1;
         int piv = pivot(array, low, high);
-        if (piv > low + 1) {
+        if (piv > low + 1) {  //判断左边至少有两个元素
             stack.push(low);
             stack.push(piv - 1);
         }
