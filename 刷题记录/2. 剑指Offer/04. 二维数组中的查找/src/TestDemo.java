@@ -13,7 +13,7 @@ public class TestDemo {
     public static void main(String[] args) {
 
     }
-    public static boolean findNumberIn2DArray(int[][] matrix, int target) {
+    public static boolean findNumberIn2DArray1(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0) return false;
         int i = 0;
         int j = matrix[i].length - 1;
@@ -23,6 +23,22 @@ public class TestDemo {
             }else if (target > matrix[i][j]) {
                 i ++;
             }else if (target == matrix[i][j]) {
+                return true;
+            }
+        }
+        return false;
+    }
+    // 从左下角开始找
+    public static boolean findNumberIn2DArray2(int[][] matrix, int target) {
+        if (matrix == null || matrix.length ==0) return false;
+        int i = matrix.length - 1;
+        int j = 0;
+        while (i >= 0 && j < matrix[0].length) {
+            if (matrix[i][j] > target) {
+                i --;
+            }else if (matrix[i][j] < target) {
+                j ++;
+            }else if (matrix[i][j] == target) {
                 return true;
             }
         }
