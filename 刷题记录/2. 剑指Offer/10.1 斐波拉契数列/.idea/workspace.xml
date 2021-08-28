@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b485c539-1117-42f1-a09e-1a3467c270fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../算法/动态规划/1.斐波拉契数列/src/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../算法/1.动态规划/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../算法/1.动态规划/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../算法/1.动态规划/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../算法/1.动态规划/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../算法/1.动态规划/1.动态规划.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/10.1 斐波拉契数列/TestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10.1 斐波拉契数列/TestDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +49,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -81,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626680557775</updated>
       <workItem from="1626680560011" duration="42000" />
+      <workItem from="1630165640609" duration="1861000" />
     </task>
     <servers />
   </component>
@@ -97,23 +98,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="996" height="169" key="GridCell.Tab.0.bottom" timestamp="1626680601728">
+    <state width="1138" height="245" key="GridCell.Tab.0.bottom" timestamp="1630167517230">
       <screen x="0" y="0" width="1676" height="913" />
     </state>
-    <state width="996" height="169" key="GridCell.Tab.0.bottom/0.0.1676.913@0.0.1676.913" timestamp="1626680601728" />
-    <state width="996" height="169" key="GridCell.Tab.0.center" timestamp="1626680601728">
+    <state width="1138" height="245" key="GridCell.Tab.0.bottom/0.0.1676.913@0.0.1676.913" timestamp="1630167517230" />
+    <state width="1138" height="245" key="GridCell.Tab.0.center" timestamp="1630167517230">
       <screen x="0" y="0" width="1676" height="913" />
     </state>
-    <state width="996" height="169" key="GridCell.Tab.0.center/0.0.1676.913@0.0.1676.913" timestamp="1626680601728" />
-    <state width="996" height="169" key="GridCell.Tab.0.left" timestamp="1626680601728">
+    <state width="1138" height="245" key="GridCell.Tab.0.center/0.0.1676.913@0.0.1676.913" timestamp="1630167517230" />
+    <state width="1138" height="245" key="GridCell.Tab.0.left" timestamp="1630167517230">
       <screen x="0" y="0" width="1676" height="913" />
     </state>
-    <state width="996" height="169" key="GridCell.Tab.0.left/0.0.1676.913@0.0.1676.913" timestamp="1626680601728" />
-    <state width="996" height="169" key="GridCell.Tab.0.right" timestamp="1626680601728">
+    <state width="1138" height="245" key="GridCell.Tab.0.left/0.0.1676.913@0.0.1676.913" timestamp="1630167517230" />
+    <state width="1138" height="245" key="GridCell.Tab.0.right" timestamp="1630167517230">
       <screen x="0" y="0" width="1676" height="913" />
     </state>
-    <state width="996" height="169" key="GridCell.Tab.0.right/0.0.1676.913@0.0.1676.913" timestamp="1626680601728" />
+    <state width="1138" height="245" key="GridCell.Tab.0.right/0.0.1676.913@0.0.1676.913" timestamp="1630167517230" />
+    <state width="1138" height="245" key="GridCell.Tab.1.bottom" timestamp="1630167517230">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1138" height="245" key="GridCell.Tab.1.bottom/0.0.1676.913@0.0.1676.913" timestamp="1630167517230" />
+    <state width="1138" height="245" key="GridCell.Tab.1.center" timestamp="1630167517230">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1138" height="245" key="GridCell.Tab.1.center/0.0.1676.913@0.0.1676.913" timestamp="1630167517230" />
+    <state width="1138" height="245" key="GridCell.Tab.1.left" timestamp="1630167517230">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1138" height="245" key="GridCell.Tab.1.left/0.0.1676.913@0.0.1676.913" timestamp="1630167517230" />
+    <state width="1138" height="245" key="GridCell.Tab.1.right" timestamp="1630167517230">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1138" height="245" key="GridCell.Tab.1.right/0.0.1676.913@0.0.1676.913" timestamp="1630167517230" />
   </component>
 </project>
