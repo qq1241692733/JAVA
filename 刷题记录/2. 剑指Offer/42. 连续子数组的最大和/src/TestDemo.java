@@ -14,16 +14,14 @@ public class TestDemo {
     }
     public static int maxSubArray(int[] nums) {
         if (nums == null) return 0;
-
         int[] dp = new int[nums.length];
         dp[0] = nums[0];
-        int maxNum = nums[0];
-
+        int maxSum = nums[0];
         for (int i = 1; i < nums.length; i++) {
             dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]);
-            maxNum = Math.max(maxNum,dp[i]);
+            maxSum = Math.max(maxSum, dp[i]);
         }
-        return maxNum;
+        return maxSum;
     }
 
     // 简化空间复杂度
