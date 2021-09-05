@@ -21,9 +21,30 @@ class Node {
 
 public class TestDemo {
     public static void main(String[] args) {
-
+        Node left = new Node(2, new Node(1), new Node(3));
+        Node h = new Node(4, left, new Node(5));
+        System.out.println(treeToDoublyList(h));
+        System.out.println(1);
     }
-    public Node treeToDoublyList(Node root) {
-
+    public static Node head;
+    public static Node pre;
+    public static Node treeToDoublyList(Node root) {
+        if(root == null) return null;
+        dfs(root);
+        head.left = pre;
+        pre.right = head;
+        return head;
+    }
+    public static void dfs(Node root) {
+        if (root == null) return;
+        dfs(root.left);
+        if (pre != null) {
+            pre.right = root;
+            root.left = pre;
+        }else {
+            head = root;
+        }
+        pre = root;
+        dfs(root.right);
     }
 }
