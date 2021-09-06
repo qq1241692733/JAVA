@@ -30,6 +30,7 @@ public class TestDemo {
     }
     public static int num = 0;
     public static int k1 = 0;
+    public static int k = 0;
     public static int kthLargest(TreeNode root, int k) {
         k1 = k;
         dfs(root);
