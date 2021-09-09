@@ -18,7 +18,17 @@ public class TestDemo {
     public static void main(String[] args) {
 
     }
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-
+    public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        TreeNode node = root;
+        while (true) {
+            if (node.val > p.val && node.val > q.val) {
+                node = node.left;
+            }else if (node.val < p.val && node.val < q.val) {
+                node = node.right;
+            }else {
+                break;
+            }
+        }
+        return node;
     }
 }
