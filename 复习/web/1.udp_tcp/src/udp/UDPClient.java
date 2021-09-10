@@ -1,12 +1,12 @@
-package day6_22;
+package udp;
 
 /**
  * Created with IntelliJ IDEA.
  * Description:
  * 文档注释 一般用于 方法的注释和类的注释
  * User: hong yaO
- * Date: 2021-06-2021/6/22
- * Time: 1:05
+ * Date: 2021-09-2021/9/9
+ * Time: 20:33
  */
-public class TestDemo {
+public class UDPClient {
 }
