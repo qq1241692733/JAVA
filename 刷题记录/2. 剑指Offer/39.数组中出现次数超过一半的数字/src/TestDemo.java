@@ -12,8 +12,21 @@ public class TestDemo {
     public static void main(String[] args) {
 
     }
-    public static int majorityElement(int[] nums) {
+    public static int majorityElement1(int[] nums) {
         Arrays.sort(nums);
         return nums[nums.length / 2];
+    }
+    public static int majorityElement2(int[] nums) {
+        int num = 0;
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (count == 0) num = nums[i];
+            if (num == nums[i]) {
+                count ++;
+            }else {
+                count --;
+            }
+        }
+        return num;
     }
 }
