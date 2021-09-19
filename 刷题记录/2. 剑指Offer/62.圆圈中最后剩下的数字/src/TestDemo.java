@@ -7,4 +7,16 @@
  * Time: 18:47
  */
 public class TestDemo {
+    public static void main(String[] args) {
+
+    }
+    public static int lastRemaining(int n, int m) {
+        int res = 0;
+        int gap = 2;
+        while (gap <= n) {
+            res = (res + m) % gap;
+            gap ++;
+        }
+        return res;
+    }
 }
