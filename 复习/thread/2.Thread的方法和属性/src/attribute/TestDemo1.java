@@ -10,7 +10,7 @@ package attribute;
  */
 public class TestDemo1 {
     public static void main(String[] args) {
-
+        System.out.println("线程的属性：");
         Thread t1 = new Thread(() -> {
             try {
                 Thread.sleep(1000);
@@ -25,8 +25,8 @@ public class TestDemo1 {
         System.out.println("线程的名称：" + t1.getName());
         System.out.println("线程优先级：" + t1.getPriority());
         System.out.println("线程是否为后台线程：" + t1.isDaemon());
-        System.out.println("线程是否存活" + t1.isAlive());
-        System.out.println("线程是否被中断" + t1.isInterrupted());
+        System.out.println("线程是否存活：" + t1.isAlive());
+        System.out.println("线程是否被中断：" + t1.isInterrupted());
 
     }
 }

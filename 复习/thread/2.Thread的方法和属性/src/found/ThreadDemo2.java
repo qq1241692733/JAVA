@@ -11,6 +11,9 @@ import java.util.Random;
  * Time: 17:58
  */
 public class ThreadDemo2 {
+    /**
+     * 线程的分组
+     */
     public static void main(String[] args) {
         Runnable runnable = new Runnable() {
             @Override

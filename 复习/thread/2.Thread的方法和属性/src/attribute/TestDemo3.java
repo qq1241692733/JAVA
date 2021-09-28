@@ -12,7 +12,7 @@ package attribute;
 
 public class TestDemo3 {
     /**
-     * 守护线程和用户线程
+     * 守护线程（后台线程）和用户线程
      *      守护线程是用来服务用户线程的，用户线程就是上帝，守护线程就说服务员
      *      进程退出： 没有用户线程运行，进程就会退出
      *  t1.setDaemon()：
@@ -38,10 +38,9 @@ public class TestDemo3 {
                 }
             }
         });
-        //t1.setDaemon(true); // 设置为守护线程
-
-//        t1.start();
-//        System.out.println("t1 是否为守护线程：" + t1.isDaemon());
+        t1.setDaemon(true); // 设置为守护线程
+        t1.start();
+        System.out.println("t1 是否为守护线程：" + t1.isDaemon());
 //
 //        Thread t2 = new Thread(() -> {
 //            Thread t3 = new Thread(() -> {
