@@ -12,6 +12,7 @@ public class TestDemo3 {
     /**
      * interrupted() 和 isInterrupted() 的区别：
       Thread.interrupted() :
+            是全局方法，判断完后会重置状态
              执行了判断线程终止为 true之后，就会将状态重置为 false
         而 Thread.currentThread().isInterrupted() 不会
             因为 Thread.interrupted() 是一个全局的静态方法，一个线程使用完别的线程还可能使用，需要复位

@@ -10,10 +10,14 @@ package found.stop;
  */
 public class TestDemo2 {
     /**
-     *  使用 interrupt 终止线程
-     *      判断线程终止状态：Thread.interrupted()
-     *      线程终止：interrupt();
-     *      休眠时终止会报异常
+       使用 interrupt 终止线程
+           判断线程终止状态：Thread.interrupted()
+           线程终止：interrupt();
+           休眠时终止会报异常
+
+           当出现终止状态异常时,也会重置为 false
+           如果线程调用了 wait/join/sleep 等方法而阻塞挂起，则以 InterruptedException 异常的形式
+         通知，清除中断标志
      */
     public static void main(String[] args) {
         Thread t1 = new Thread(new Runnable() {
@@ -26,6 +30,7 @@ public class TestDemo2 {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
+                        // 当出现终止状态异常时,也会重置为 false
                         break;
                     }
                 }
