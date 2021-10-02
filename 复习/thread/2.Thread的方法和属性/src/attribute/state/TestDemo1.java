@@ -12,7 +12,7 @@ package attribute.state;
 public class TestDemo1 {
     /**
      *  NEW: 新建状态，没有调用 start() 之前
-     *  RUNNABLE: 运行状态（Running 执行中， Ready 就绪）
+     *  RUNNABLE: 运行状态（Running 执行中(得到时间片)， Ready 就绪）
      *  BLOCKED: 阻塞
      *  WAITING: 等待，没有明确的等待时间 wait()
      *  TIMED_WAITING: 超时等待状态，有明确等待时间，如 Sleep(XXX)
