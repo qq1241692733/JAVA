@@ -1,4 +1,4 @@
-package found.wait;
+package found.join;
 
 /**
  * Created with IntelliJ IDEA.
