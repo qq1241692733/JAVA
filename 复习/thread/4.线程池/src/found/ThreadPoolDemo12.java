@@ -25,7 +25,7 @@ public class ThreadPoolDemo12 {
      *      2.任务数量不可控（任务数量无限大， Integer.MAX_VALUE）
      */
 
-    // 创建一个大对象
+    // 创建一个 1M 的大对象
     static class MyOOMClass {
         // 1M (B -> KB -> MB)
         private byte[] bytes = new byte[1 * 1024 * 1024];
@@ -33,6 +33,7 @@ public class ThreadPoolDemo12 {
 
     public static void main(String[] args) {
         Object[] objects = new Object[15];
+
         ExecutorService service = Executors.newFixedThreadPool(15);
         for (int i = 0; i < 15; i++) {
             int finalI = i;
