@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class ThreadPoolDemo8 {
     /**
      * 方式 3：创建可以执行定时任务的线程池
+     *        Executors.newScheduledThreadPool();
      *
      * scheduleWithFixedDelay()  与 scheduleAtFixedRate() 区别 ：
      *   scheduleWithFixedDelay() 是以上次任务 结束时间 作为开始时间
