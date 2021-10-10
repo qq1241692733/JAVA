@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ThreadPoolDemo2 {
     /**
-     * 线程池的关闭：
+     * 2. 线程池的关闭：
      *   shutdown() 和 shutdownNow() 的区别：
      *     shutdown()： 拒绝执行新任务加入，等待线程池中的任务队列执行完之后，再停止线程池
      *     shutdownNow()： 拒绝执行新任务，不会等待任务队列中的任务执行完成，就会停止线程池

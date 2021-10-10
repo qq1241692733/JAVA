@@ -1,7 +1,5 @@
 package method;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -16,13 +14,18 @@ import java.util.concurrent.TimeUnit;
  * Date: 2021-10-2021/10/8
  * Time: 20:28
  */
-public class ThreadPoolDemo5 {
+public class ThreadPoolDemo6 {
     /**
      * 3. ThreadLocal 的引入：
-     *
-     * 问题演示
      *  需求3：
-     *      使用最高效的方法实现 1000个时间格式化
+     *     使用最高效的方法实现 1000个时间格式化
+     *
+     * 解决线程不安全的问题：
+     *   方法1：给加🔒：给 myFormatTime() 方法加锁
+     *      缺点：排队执行的性能消耗
+     *
+     *     怎么既可以解决线程不安全问题，又不用排队，引入 ThreadLocal
+     *  方法2：使用后 ThreadLocal
      */
     static SimpleDateFormat dateFormat =
             new SimpleDateFormat("mm:ss");
@@ -49,7 +52,7 @@ public class ThreadPoolDemo5 {
      * 自定义时间格式化
      * @param date
      */
-    private static void myFormatTime(Date date) {
+    private static synchronized void myFormatTime(Date date) {
         // 优化，改为静态
 //        SimpleDateFormat dateFormat =
 //                new SimpleDateFormat("mm:ss");

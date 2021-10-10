@@ -14,7 +14,10 @@ import java.util.logging.SimpleFormatter;
  */
 public class ThreadPoolDemo3 {
     /**
-     * 使用最高效的方法实现2个时间格式化
+     * 3. ThreadLocal 的引入：
+     *  问题的引入
+     *  需求1：
+     *      使用最高效的方法实现2个时间格式化
      */
     public static void main(String[] args) {
         Thread t1 = new Thread(new Runnable() {

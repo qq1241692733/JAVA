@@ -13,7 +13,10 @@ import java.util.Date;
  */
 public class ThreadPoolDemo4 {
     /**
-     * 使用最高效的方法实现 10个时间格式化
+     * 3. ThreadLocal 的引入：
+     * 问题的引入
+     *  需求 2：
+     *  使用最高效的方法实现 10个时间格式化
      */
     public static void main(String[] args) {
         for (int i = 1; i < 11; i++) {
@@ -34,7 +37,6 @@ public class ThreadPoolDemo4 {
      * @param date
      */
     private static void myFormatTime(Date date) {
-        System.out.println();
         SimpleDateFormat dateFormat =
                 new SimpleDateFormat("mm:ss");
         String res = dateFormat.format(date);

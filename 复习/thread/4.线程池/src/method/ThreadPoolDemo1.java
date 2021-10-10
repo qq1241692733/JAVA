@@ -13,10 +13,11 @@ import java.util.concurrent.*;
  */
 public class ThreadPoolDemo1 {
     /**
-     * 线程池的 2种执行方式:
-     * execute() 和 submit()
-     * 6. 使用 execute 只能执行 Runnable 任务，他说无返回值的；
-     * 7.  submit 它既能执行 Runnable 任务，也能执行 Callable 有返回值任务
+     * 1.
+     *  线程池的 2种执行方式:
+     *  execute() 和 submit()
+     *      1. 使用 execute 只能执行 Runnable 任务，他说无返回值的；
+     *      2.  submit 它既能执行 Runnable 任务，也能执行 Callable 有返回值任务
      */
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 5, 0,
