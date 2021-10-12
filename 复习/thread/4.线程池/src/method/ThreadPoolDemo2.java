@@ -16,8 +16,12 @@ public class ThreadPoolDemo2 {
     /**
      * 2. 线程池的关闭：
      *   shutdown() 和 shutdownNow() 的区别：
-     *     shutdown()： 拒绝执行新任务加入，等待线程池中的任务队列执行完之后，再停止线程池
-     *     shutdownNow()： 拒绝执行新任务，不会等待任务队列中的任务执行完成，就会停止线程池
+     *     shutdown()：
+     *          拒绝执行新任务加入，等待线程池中的任务队列执行完之后，再停止线程池
+     *          进入 SHUNDOWN 状态
+     *     shutdownNow()：
+     *          拒绝执行新任务，不会等待任务队列中的任务执行完成，就会停止线程池
+     *          进入 STOP 状态
      */
     public static void main(String[] args) {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(
