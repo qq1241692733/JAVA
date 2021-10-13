@@ -1,4 +1,4 @@
-package method;
+package threadlocal;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -14,7 +14,7 @@ import java.util.logging.SimpleFormatter;
  */
 public class ThreadPoolDemo3 {
     /**
-     * 3. ThreadLocal 的引入：
+     * 1. ThreadLocal 的引入：
      *  问题的引入
      *  需求1：
      *      使用最高效的方法实现2个时间格式化

@@ -1,4 +1,4 @@
-package method;
+package threadlocal;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ThreadPoolDemo8 {
     /**
-     * 4. ThreadLocal 使用：
+     * 2. ThreadLocal 使用：
      *    1.set(T): 将变量存放到线程中
      *    2.get(): 从线程中取得私有变量
      *    3.remove()： 从线程中移除私有变量
