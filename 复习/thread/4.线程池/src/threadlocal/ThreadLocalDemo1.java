@@ -16,10 +16,10 @@ import java.util.logging.SimpleFormatter;
  * Date: 2021-10-2021/10/13
  * Time: 20:25
  */
-public class ThreadDemo1 {
+public class ThreadLocalDemo1 {
     /**
      *  ThreadLocal 实战：
-     *   解决：使用最高效的方法实现 1000个时间格式化
+     *   1. 解决：使用最高效的方法实现 1000个时间格式化
      */
 
     static ThreadLocal<SimpleDateFormat> threadLocal =
@@ -42,12 +42,10 @@ public class ThreadDemo1 {
                 @Override
                 public void run() {
                     Date date = new Date(finalI * 1000);
-//                    try {
-//                        myFormat(date);
-//                    } finally {
-//                        threadLocal.remove();
-//                    }
                     myFormat(date);
+                    if(finalI == 999) {
+                        threadLocal.remove();
+                    }
                 }
             });
         }
