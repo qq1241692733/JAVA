@@ -14,25 +14,26 @@ import java.util.Stack;
 public class TestDemo {
     public static void main(String[] args) {
         //int[] a = {-2,-1,1,-2};
-        int[] a = {10,2,-5};
+        int[] a = {5,10,-5};
         System.out.println(Arrays.toString(asteroidCollision(a)));
     }
     public static int[] asteroidCollision(int[] asteroids) {
         Stack<Integer> stack = new Stack<>();
         for (int num : asteroids) {
-            if (num < 0) stack.push(num);
-            else {
-                while (!stack.isEmpty() && stack.peek() > 0) {
-                    if (-num > stack.peek()) {
-                        stack.pop();
-                    } else if (-num < stack.peek()) {
-                        ;
-                    }else {
-                        continue;
-                    }
-                }
-                stack.push(num);
+            boolean flag = true;
+            while (!stack.isEmpty() && num < 0 && stack.peek() > 0) {
+                if (-num > stack.peek()) {
+                    stack.pop();
+                } else if (stack.peek() == -num){
+                   stack.pop();
+                   flag = false;
+                   break;
+                } else if(-num < stack.peek()){
+                    flag = false;
+                    break;
+                }else break;
             }
+            if (flag) stack.push(num);
         }
         int[] res = new int[stack.size()];
         for (int i = res.length - 1; i >= 0; i--) {
