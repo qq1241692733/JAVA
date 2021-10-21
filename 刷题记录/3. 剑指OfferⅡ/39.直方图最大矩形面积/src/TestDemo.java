@@ -10,7 +10,8 @@ import java.util.Stack;
  */
 public class TestDemo {
     public static void main(String[] args) {
-
+        int[] a = {2, 1, 5, 6, 2, 3};
+        System.out.println(largestRectangleArea(a));
     }
     public static int largestRectangleArea(int[] heights) {
         Stack<Integer> stack = new Stack<>();
