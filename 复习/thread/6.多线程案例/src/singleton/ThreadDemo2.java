@@ -1,3 +1,5 @@
+package singleton;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:

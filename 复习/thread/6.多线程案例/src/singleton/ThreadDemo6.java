@@ -1,3 +1,5 @@
+package singleton;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -7,26 +9,32 @@
  * Time: 20:42
  */
 
-public class ThreadDemo4 {
+public class ThreadDemo6 {
     /**
      * 单例模式: 整个程序的运行中只存在一个对象
      *
-     * 1.懒汉方式 V2(线程安全):
-     *     解决线程不安全： 给访问方法加锁
-     *      getInstance 排队执行，没性能
+     * 1.懒汉方式最终版 V4(线程安全) :
+     *     解决线程不安全：
+     *         1.双重校验🔒
+     *         2.volatile
      */
     static class Singleton {
         // 1.创建一个私有的构造函数
-        private Singleton(){}
+        private Singleton(){
+
+        }
 
         // 2. 创建一个私有的类变量
-        private static Singleton singleton = null;
+        private static volatile Singleton singleton = null;
         // 3. 提供统一的访问方法
         public static synchronized Singleton getInstance() throws InterruptedException {
             if (singleton == null) {
-                Thread.sleep(1000);
-                // 第一次访问
-                singleton = new Singleton();
+                synchronized (Singleton.class) {
+                    if (singleton == null) {
+                        // 第一次访问
+                        singleton = new Singleton();
+                    }
+                }
             }
             return singleton;
         }

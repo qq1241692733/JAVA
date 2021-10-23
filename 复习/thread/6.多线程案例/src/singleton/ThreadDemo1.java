@@ -1,4 +1,4 @@
-/**
+package singleton; /**
  * Created with IntelliJ IDEA.
  * Description:
  * 文档注释 一般用于 方法的注释和类的注释
@@ -27,6 +27,7 @@ class Singleton {
         return singleton;
     }
 }
+
 public class ThreadDemo1 {
     public static void main(String[] args) {
        // 不能直接创建 Sigleton singleton = new Singleton();

@@ -1,3 +1,9 @@
+package singleton;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -7,32 +13,25 @@
  * Time: 20:42
  */
 
-public class ThreadDemo6 {
+public class ThreadDemo3 {
     /**
      * 单例模式: 整个程序的运行中只存在一个对象
      *
-     * 1.懒汉方式最终版 V4(线程安全) :
-     *     解决线程不安全：
-     *         1.双重校验🔒
-     *         2.volatile
+     * 1.懒汉方式 V1(线程不安全):
      */
     static class Singleton {
         // 1.创建一个私有的构造函数
-        private Singleton(){
-
-        }
+        private Singleton(){}
 
         // 2. 创建一个私有的类变量
-        private static volatile Singleton singleton = null;
+        private static Singleton singleton = null;
         // 3. 提供统一的访问方法
-        public static synchronized Singleton getInstance() throws InterruptedException {
+        public static Singleton getInstance() throws InterruptedException {
+
             if (singleton == null) {
-                synchronized (Singleton.class) {
-                    if (singleton == null) {
-                        // 第一次访问
-                        singleton = new Singleton();
-                    }
-                }
+                Thread.sleep(1000);
+                // 第一次访问
+                singleton = new Singleton();
             }
             return singleton;
         }
