@@ -43,7 +43,7 @@ public class ThreadDemo5 {
         // 2. 创建一个私有的类变量
         private static Singleton singleton = null;
         // 3. 提供统一的访问方法
-        public static synchronized Singleton getInstance() throws InterruptedException {
+        public static Singleton getInstance() throws InterruptedException {
             if (singleton == null) {
                 Thread.sleep(1000);
                 synchronized (Singleton.class) {
