@@ -13,7 +13,7 @@ public class ThreadLocalDemo5 {
      *  ThreadLocal 缺点:
      *     1.不可继承性
      *        子线程不能读取到父线程的值
-     *      解决： 使用 new I24nheritableThreadLocal<>();
+     *      解决： 使用 new InheritableThreadLocal<>();
      *       注意：InheritableThreadLocal不能实现不同线程之间的数据共享
      */
     static ThreadLocal<String> threadLocal =
