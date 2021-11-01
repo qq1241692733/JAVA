@@ -19,6 +19,7 @@ public class ThreadDemo2 {
             @Override
             public void run() {
                 System.out.println("开始起跑了:" + Thread.currentThread().getName());
+                System.out.println(Thread.currentThread().getThreadGroup());
                 try {
                     int num = 1 + new Random().nextInt(5);
                     Thread.sleep(1000 * num);
@@ -36,12 +37,10 @@ public class ThreadDemo2 {
         t1.start();
         t2.start();
 
-        // 打印分组
-        group.list();
-        // 等待所有选手到达终点  group活跃度为0
-        while (group.activeCount() != 0) {
+        // 打印分组  group.list();
 
-        }
+        // 等待所有选手到达终点  group活跃度为0
+        while (group.activeCount() != 0);
         // 宣布成绩
         System.out.println("宣布成绩");
     }

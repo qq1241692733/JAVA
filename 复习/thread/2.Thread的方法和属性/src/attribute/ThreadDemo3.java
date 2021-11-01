@@ -27,7 +27,7 @@ public class ThreadDemo3 {
      *      2.在守护线程里边创建的线程是守护线程
      *      3.在用户线程里边创建的线程是用户线程
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
                 System.out.println("i = " + i);
@@ -41,6 +41,7 @@ public class ThreadDemo3 {
         t1.setDaemon(true); // 设置为守护线程
         t1.start();
         System.out.println("t1 是否为守护线程：" + t1.isDaemon());
+        Thread.sleep(200);
 //
 //        Thread t2 = new Thread(() -> {
 //            Thread t3 = new Thread(() -> {

@@ -35,7 +35,7 @@ public class ThreadDemo1 {
         t1.start();
         // 等待张三
         //t1.join();
-        t1.join(900);
+        t1.join(100);
 
         Thread t2 = new Thread(runnable, "李四");
         t2.start();

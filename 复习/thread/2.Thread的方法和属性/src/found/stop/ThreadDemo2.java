@@ -25,7 +25,6 @@ public class ThreadDemo2 {
             public void run() {
                 while (!Thread.interrupted()) {
                 //while (!Thread.currentThread().isInterrupted()) {
-                    System.out.println("正在转账");
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
@@ -33,6 +32,7 @@ public class ThreadDemo2 {
                         // 当出现终止状态异常时,也会重置为 false
                         break;
                     }
+                    System.out.println("正在转账");
                 }
                 System.out.println("转账完成");
             }
