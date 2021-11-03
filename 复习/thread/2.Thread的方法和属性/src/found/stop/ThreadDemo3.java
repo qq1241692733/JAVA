@@ -23,8 +23,8 @@ public class ThreadDemo3 {
             @Override
             public void run() {
                 for (int i = 0; i < 5; i++) {
-                    System.out.println(Thread.interrupted());
-                    // System.out.println(Thread.currentThread().isInterrupted());
+                    //System.out.println(Thread.interrupted());
+                    System.out.println(Thread.currentThread().isInterrupted());
                 }
             }
         });

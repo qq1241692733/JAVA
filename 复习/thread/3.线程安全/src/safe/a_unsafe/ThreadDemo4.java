@@ -52,6 +52,7 @@ public class ThreadDemo4 {
         t2.start();
         t1.join();
         t2.join();
-        System.out.println("多线程：" + counter.getNum());
+        System.out.println("使用volatile修饰后");
+        System.out.println("num:" + counter.getNum());
     }
 }

@@ -26,7 +26,7 @@ public class ThreadDemo2 {
             a++;
         }
         Long eTime = System.currentTimeMillis();
-        System.out.println(eTime - sTime);
+        System.out.println("单线程运行时间：" + (eTime - sTime));
     }
 
     // 多线程的方法
@@ -63,6 +63,6 @@ public class ThreadDemo2 {
         t2.join();
 
         Long eTime = System.currentTimeMillis();
-        System.out.println(eTime - sTime);
+        System.out.println("多线程执行时间：" + (eTime - sTime));
     }
 }

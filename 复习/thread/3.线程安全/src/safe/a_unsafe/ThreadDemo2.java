@@ -16,13 +16,14 @@ public class ThreadDemo2 {
      *      2.当操作完变量后 强制删除工作内存中的此变量
      * volatile 不能解决原子性问题，用 volatile修饰 TestDemo1中的 num 无效
      */
-    //private static volatile boolean flag = false;
-    private static  boolean flag = false;
+    // private static volatile boolean flag = false;
+    private static boolean flag = false;
     public static void main(String[] args) {
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
                 while (!flag) {
+                    // System.out.println("正在执行");
                     /**
                      * 线程的工作方式：
                      *    每个线程都有自己的工作内存，先在工作内存里找，再取主内存里找

@@ -19,12 +19,12 @@ public class ThreadDemo2 {
            如果线程调用了 wait/join/sleep 等方法而阻塞挂起，则以 InterruptedException 异常的形式
          通知，清除中断标志
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                while (!Thread.interrupted()) {
-                //while (!Thread.currentThread().isInterrupted()) {
+                //while (!Thread.interrupted()) {
+                while (!Thread.currentThread().isInterrupted()) {
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
@@ -47,9 +47,15 @@ public class ThreadDemo2 {
                     e.printStackTrace();
                 }
                 System.out.println("有内鬼，停止交易");
+                System.out.println(t1.isInterrupted());
                 t1.interrupt();
+                System.out.println(t1.isInterrupted());
+                System.out.println(t1.isInterrupted());
             }
         });
         t2.start();
+        t1.join();
+        t2.join();
+
     }
 }
