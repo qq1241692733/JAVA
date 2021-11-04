@@ -56,5 +56,4 @@ public class ThreadDemo3 {
         });
         t2.start();
     }
-
 }

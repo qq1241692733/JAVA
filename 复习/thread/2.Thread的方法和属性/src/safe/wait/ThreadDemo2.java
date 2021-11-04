@@ -29,7 +29,7 @@ public class ThreadDemo2 {
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                System.out.println("线程1 进入休眠:");
+                System.out.println("线程1 进入休眠");
                 synchronized (lock) {
                     try {
                         /**
@@ -41,7 +41,7 @@ public class ThreadDemo2 {
                         e.printStackTrace();
                     }
                 }
-                System.out.println("线程1 执行完成:");
+                System.out.println("线程1 执行完成");
             }
         }, "t1");
         t1.start();
