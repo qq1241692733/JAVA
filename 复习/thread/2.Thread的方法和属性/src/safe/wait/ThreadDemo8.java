@@ -16,6 +16,8 @@ public class ThreadDemo8 {
      *  parkUntil 传参注意事项
      */
     public static void main(String[] args) throws InterruptedException {
+        int[] a = new int[100];
+
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
