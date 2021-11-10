@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fc47d96-bf82-4915-b8dd-a70a7ad00564" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ThreadDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.Thread的方法和属性/src/safe/wait/ThreadDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Thread的方法和属性/src/safe/wait/ThreadDemo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="5fc47d96-bf82-4915-b8dd-a70a7ad00564" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1636192052643</updated>
       <workItem from="1636192056431" duration="2187000" />
+      <workItem from="1636580626601" duration="67000" />
     </task>
     <servers />
   </component>
@@ -99,12 +95,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636192263685">
       <screen x="0" y="0" width="1676" height="913" />
     </state>
     <state x="0" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1676.913@0.0.1676.913" timestamp="1636192263685" />
+    <state x="798" y="211" key="FileChooserDialogImpl" timestamp="1636580675648">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state x="798" y="211" key="FileChooserDialogImpl/0.0.1676.913@0.0.1676.913" timestamp="1636580675648" />
     <state width="1026" height="169" key="GridCell.Tab.0.bottom" timestamp="1636219518336">
       <screen x="0" y="0" width="1676" height="913" />
     </state>
@@ -121,5 +122,9 @@
       <screen x="0" y="0" width="1676" height="913" />
     </state>
     <state width="1026" height="169" key="GridCell.Tab.0.right/0.0.1676.913@0.0.1676.913" timestamp="1636219518336" />
+    <state x="203" y="10" key="new project wizard" timestamp="1636580689431">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state x="203" y="10" key="new project wizard/0.0.1676.913@0.0.1676.913" timestamp="1636580689431" />
   </component>
 </project>
