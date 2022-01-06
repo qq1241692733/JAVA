@@ -1,4 +1,6 @@
-package demo0105;
+package demo0106;
+
+import demo0105.Sort;
 
 import java.util.Arrays;
 

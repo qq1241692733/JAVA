@@ -15,8 +15,8 @@ public class TestDemo {
         System.out.println(Arrays.toString(array));
         //Sort.insertSort(array);
         //Sort.shellSort(array);
-        Sort.selectSort(array);
-        //Sort.heapSort(array);
+        //Sort.selectSort(array);
+        Sort.heapSort(array);
         //Sort.bubbleSort(array);
         //Sort.quickSort(array);
         //Sort.quickSort1(array);
