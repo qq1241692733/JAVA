@@ -112,5 +112,83 @@ public class Sort {
         array[j] = temp;
     }
 
+    // 5.冒泡排序
+    public static void bubbleSort(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length - i - 1; j++) {
+                if (array[j] > array[j + 1]) {
+                    swap(array, j,j + 1);
+                }
+            }
+        }
+    }
 
+    // 6.快排
+    public static void quickSort(int[] array) {
+        quick(array, 0, array.length - 1);
+    }
+
+    private static void quick(int[] array, int low, int high) {
+        if (low < high) {
+            int piv = pivot(array, low, high);
+            quick(array, low, piv - 1);
+            quick(array, piv + 1, high);
+        }
+    }
+
+    private static int pivot(int[] array, int start, int end) {
+        // 基准 temp
+        int temp = array[start];
+        while (start < end) {
+            // 从右开始找到比基准小的数
+            while (start < end && array[end] > temp) {
+                end --;
+            }
+            array[start] = array[end];
+            // 从左开始找比基准大的数
+            while (start < end && array[start] < temp) {
+                start ++;
+            }
+            array[end] = array[start];
+        }
+        array[end] = temp;
+        return end;
+    }
+
+    // 7.归并排序
+    public static void mergeSort(int[] array) {
+        mergeSortInternal(array, 0, array.length - 1);
+    }
+
+    private static void mergeSortInternal(int[] array, int low, int high) {
+        if (low >= high) return;
+        int mid = (low + high) / 2;
+        mergeSortInternal(array, low, mid);
+        mergeSortInternal(array, mid + 1, high);
+        merge(array, low, mid, high);
+    }
+
+    private static void merge(int[] array, int low, int mid, int high) {
+        int[] tmp = new int[high - low + 1];
+        int s1 = low;
+        int s2 = mid + 1;
+        int k = 0;
+        while (s1 <= mid && s2 <= high) {
+            if (array[s1] < array[s2]) {
+                tmp[k++] = array[s1++];
+            }
+            if (array[s2] < array[s1]) {
+                tmp[k++] = array[s2++];
+            }
+        }
+        while (s1 <= mid) {
+            tmp[k++] = array[s1++];
+        }
+        while (s2 <= high) {
+            tmp[k++] = array[s2++];
+        }
+        for (int i = 0; i < tmp.length; i++) {
+            array[i + low] = tmp[i];
+        }
+    }
 }

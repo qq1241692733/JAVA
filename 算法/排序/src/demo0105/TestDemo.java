@@ -17,9 +17,9 @@ public class TestDemo {
         //Sort.insertSort(array);
         //Sort.shellSort(array);
         //Sort.selectSort(array);
-        Sort.heapSort(array);
+        //Sort.heapSort(array);
         //Sort.bubbleSort(array);
-        //Sort.quickSort(array);
+        Sort.quickSort(array);
         //Sort.quickSort1(array);
         //Sort.quickSort2(array);
         //Sort.mergeSort(array);
