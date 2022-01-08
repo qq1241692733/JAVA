@@ -1,7 +1,5 @@
 package demo0106;
 
-import demo0105.Sort;
-
 import java.util.Arrays;
 
 /**
@@ -14,10 +12,10 @@ import java.util.Arrays;
  */
 public class TestDemo {
     public static void main(String[] args) {
-        int[] array = {8,6,4,2,9,5,7,1,3};
+        int[] array = {6,6,4,2,9,5,7,1,3};
         System.out.println(Arrays.toString(array));
         //Sort.insertSort(array);
-        Sort.shellSort(array);
+        //Sort.shellSort(array);
         //Sort.selectSort(array);
         //Sort.heapSort(array);
         //Sort.bubbleSort(array);

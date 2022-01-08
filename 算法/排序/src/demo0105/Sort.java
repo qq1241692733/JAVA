@@ -174,7 +174,7 @@ public class Sort {
         int s2 = mid + 1;
         int k = 0;
         while (s1 <= mid && s2 <= high) {
-            if (array[s1] < array[s2]) {
+            if (array[s1] <= array[s2]) {
                 tmp[k++] = array[s1++];
             }
             if (array[s2] < array[s1]) {
