@@ -148,6 +148,7 @@ public class MyLinkedList {
             if (key == cur.next.data) {
                 return cur;
             }
+            cur = cur.next;
         }
         return null;
     }

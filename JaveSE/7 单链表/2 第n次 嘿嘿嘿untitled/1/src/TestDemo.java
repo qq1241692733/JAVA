@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -16,6 +19,11 @@ public class TestDemo {
         myLinkedList.display();
         myLinkedList.remove(2);
         myLinkedList.display();
+        System.out.println(myLinkedList.findN(3).data);
+
+        List<Integer> list = new LinkedList<>();
+        list.add(1);
+        System.out.println(list.size());
     }
 
 }

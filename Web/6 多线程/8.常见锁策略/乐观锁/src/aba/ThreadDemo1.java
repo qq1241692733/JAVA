@@ -1,5 +1,6 @@
 package aba;
 
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
@@ -14,7 +15,7 @@ public class ThreadDemo1 {
     // 有100
     private static AtomicReference money =
             new AtomicReference(100);
-
+    AtomicInteger a = new AtomicInteger();
     public static void main(String[] args) {
         // 转出100
         Thread t1 = new Thread(new Runnable() {

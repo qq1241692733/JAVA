@@ -32,7 +32,7 @@ public class TestDemo {
      *
      * 优化：
      * 状态方程：F(i,j) = F(i-1,j) + F(i,j-1)
-     * 初始状态：F(0,0) = F(0,j) = F(i,0) = 12
+     * 初始状态：F(0,0) = F(0,j) = F(i,0) = 1
      * 返回结果：F(row-1,col-1)
      */
     public static int uniquePaths(int m, int n) {

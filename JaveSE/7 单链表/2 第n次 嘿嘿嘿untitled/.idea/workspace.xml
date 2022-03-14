@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c254ddbe-8a0e-482b-9b16-94adacf2f978" name="Default Changelist" comment="" />
+    <list default="true" id="c254ddbe-8a0e-482b-9b16-94adacf2f978" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../算法/代码随想录/src/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../算法/代码随想录/src/TestDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../算法/代码随想录/代码随想录.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2 第n次 嘿嘿嘿untitled/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2 第n次 嘿嘿嘿untitled/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2 第n次 嘿嘿嘿untitled/TestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2 第n次 嘿嘿嘿untitled/TestDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../刷题记录/1. 日常刷题/001.刷题记录/.idea/modules.xml.baiduyun.uploading.cfg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1mbM1QOT9hvakZMTp0imTaLuA2a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -34,7 +68,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.TestDemo">
+  <component name="RunManager" selected="Application.TestDemo (1)">
     <configuration name="TestDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestDemo" />
       <module name="2 第n次 嘿嘿嘿untitled" />
@@ -57,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.TestDemo (1)" />
+        <item itemvalue="Application.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -79,59 +113,74 @@
       <workItem from="1611450469321" duration="23000" />
       <workItem from="1611557752463" duration="6000" />
       <workItem from="1611566587745" duration="69000" />
+      <workItem from="1642830744338" duration="9196000" />
+      <workItem from="1642842220689" duration="3524000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="636" y="91" key="#Project_Structure" timestamp="1609757632948">
-      <screen x="0" y="0" width="1676" height="943" />
+    <state x="480" y="205" key="#Notifications" timestamp="1642830759438">
+      <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state x="636" y="91" key="#Project_Structure/0.0.1676.943@0.0.1676.943" timestamp="1609757632948" />
-    <state x="809" y="287" key="FileChooserDialogImpl" timestamp="1609906883861">
-      <screen x="0" y="0" width="1676" height="943" />
+    <state x="480" y="205" key="#Notifications/0.0.1676.896@0.0.1676.896" timestamp="1642830759438" />
+    <state width="1632" height="279" key="GridCell.Tab.0.bottom" timestamp="1642841903762">
+      <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state x="809" y="287" key="FileChooserDialogImpl/0.0.1676.943@0.0.1676.943" timestamp="1609906883861" />
-    <state width="1050" height="144" key="GridCell.Tab.0.bottom" timestamp="1611388107014">
-      <screen x="0" y="0" width="1676" height="943" />
+    <state width="1632" height="279" key="GridCell.Tab.0.bottom/0.0.1676.896@0.0.1676.896" timestamp="1642841903762" />
+    <state width="1632" height="279" key="GridCell.Tab.0.center" timestamp="1642841903762">
+      <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state width="1050" height="144" key="GridCell.Tab.0.bottom/0.0.1676.943@0.0.1676.943" timestamp="1611388107014" />
-    <state width="1050" height="144" key="GridCell.Tab.0.center" timestamp="1611388107014">
-      <screen x="0" y="0" width="1676" height="943" />
+    <state width="1632" height="279" key="GridCell.Tab.0.center/0.0.1676.896@0.0.1676.896" timestamp="1642841903762" />
+    <state width="1632" height="279" key="GridCell.Tab.0.left" timestamp="1642841903761">
+      <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state width="1050" height="144" key="GridCell.Tab.0.center/0.0.1676.943@0.0.1676.943" timestamp="1611388107014" />
-    <state width="1050" height="144" key="GridCell.Tab.0.left" timestamp="1611388107014">
-      <screen x="0" y="0" width="1676" height="943" />
+    <state width="1632" height="279" key="GridCell.Tab.0.left/0.0.1676.896@0.0.1676.896" timestamp="1642841903761" />
+    <state width="1632" height="279" key="GridCell.Tab.0.right" timestamp="1642841903762">
+      <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state width="1050" height="144" key="GridCell.Tab.0.left/0.0.1676.943@0.0.1676.943" timestamp="1611388107014" />
-    <state width="1050" height="144" key="GridCell.Tab.0.right" timestamp="1611388107014">
-      <screen x="0" y="0" width="1676" height="943" />
+    <state width="1632" height="279" key="GridCell.Tab.0.right/0.0.1676.896@0.0.1676.896" timestamp="1642841903762" />
+    <state width="1632" height="279" key="GridCell.Tab.1.bottom" timestamp="1642841903762">
+      <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state width="1050" height="144" key="GridCell.Tab.0.right/0.0.1676.943@0.0.1676.943" timestamp="1611388107014" />
-    <state width="1630" height="308" key="GridCell.Tab.1.bottom" timestamp="1611387319586">
-      <screen x="0" y="0" width="1676" height="943" />
+    <state width="1632" height="279" key="GridCell.Tab.1.bottom/0.0.1676.896@0.0.1676.896" timestamp="1642841903762" />
+    <state width="1632" height="279" key="GridCell.Tab.1.center" timestamp="1642841903762">
+      <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state width="1630" height="308" key="GridCell.Tab.1.bottom/0.0.1676.943@0.0.1676.943" timestamp="1611387319586" />
-    <state width="1630" height="308" key="GridCell.Tab.1.center" timestamp="1611387319586">
-      <screen x="0" y="0" width="1676" height="943" />
+    <state width="1632" height="279" key="GridCell.Tab.1.center/0.0.1676.896@0.0.1676.896" timestamp="1642841903762" />
+    <state width="1632" height="279" key="GridCell.Tab.1.left" timestamp="1642841903762">
+      <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state width="1630" height="308" key="GridCell.Tab.1.center/0.0.1676.943@0.0.1676.943" timestamp="1611387319586" />
-    <state width="1630" height="308" key="GridCell.Tab.1.left" timestamp="1611387319585">
-      <screen x="0" y="0" width="1676" height="943" />
+    <state width="1632" height="279" key="GridCell.Tab.1.left/0.0.1676.896@0.0.1676.896" timestamp="1642841903762" />
+    <state width="1632" height="279" key="GridCell.Tab.1.right" timestamp="1642841903762">
+      <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state width="1630" height="308" key="GridCell.Tab.1.left/0.0.1676.943@0.0.1676.943" timestamp="1611387319585" />
-    <state width="1630" height="308" key="GridCell.Tab.1.right" timestamp="1611387319586">
-      <screen x="0" y="0" width="1676" height="943" />
-    </state>
-    <state width="1630" height="308" key="GridCell.Tab.1.right/0.0.1676.943@0.0.1676.943" timestamp="1611387319586" />
-    <state x="77" y="0" key="new project wizard" timestamp="1609906958523">
-      <screen x="0" y="0" width="1676" height="943" />
-    </state>
-    <state x="77" y="0" key="new project wizard/0.0.1676.943@0.0.1676.943" timestamp="1609906958523" />
+    <state width="1632" height="279" key="GridCell.Tab.1.right/0.0.1676.896@0.0.1676.896" timestamp="1642841903762" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/MyLinkedList.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo typeName="List.Node" fieldName="next" />
